@@ -1,0 +1,593 @@
+{
+  "1": {
+    "jp": "練習航海",
+    "time": 15,
+    "output": {
+      "ammo": 30
+    },
+    "cost": {
+      "fuel": 3
+    },
+    "fleet": {
+      "XX": 2
+    }
+  },
+  "2": {
+    "jp": "長距離練習航海",
+    "time": 30,
+    "output": {
+      "ammo": 100,
+      "steel": 30
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "XX": 4
+    }
+  },
+  "3": {
+    "jp": "警備任務",
+    "time": 20,
+    "output": {
+      "fuel": 30,
+      "ammo": 30,
+      "steel": 40
+    },
+    "cost": {
+      "fuel": 3,
+      "ammo": 2
+    },
+    "fleet": {
+      "XX": 3
+    }
+  },
+  "4": {
+    "jp": "対潜警戒任務",
+    "time": 50,
+    "output": {
+      "ammo": 60
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 2
+    }
+  },
+  "5": {
+    "jp": "海上護衛任務",
+    "time": 90,
+    "output": {
+      "fuel": 200,
+      "ammo": 200,
+      "steel": 20,
+      "bauxite": 20
+    },
+    "cost": { "fuel": 5 },
+    "fleet": { "CL": 1, "DD": 2, "XX": 1 }
+  },
+  "6": {
+    "jp": "防空射撃演習",
+    "time": 40,
+    "output": {
+      "bauxite": 80
+    },
+    "cost": { "fuel": 3, "ammo": 2 },
+    "fleet": { "XX": 4 }
+  },
+  "7": {
+    "jp": "観艦式予行",
+    "time": 60,
+    "output": {
+      "steel": 50,
+      "bauxite": 30
+    },
+    "cost": { "fuel": 5 },
+    "fleet": {
+      "XX": 5
+    }
+  },
+  "8": {
+    "jp": "観艦式",
+    "time": 180,
+    "output": {
+      "fuel": 50,
+      "ammo": 100,
+      "steel": 50,
+      "bauxite": 50
+    },
+    "cost": { "fuel": 5, "ammo": 2 },
+    "fleet": {
+      "XX": 6
+    }
+  },
+  "9": {
+    "jp": "タンカー護衛任務",
+    "time": 240,
+    "output": {
+      "fuel": 350
+    },
+    "cost": { "fuel": 5 },
+    "fleet": {
+      "CL": 1,
+      "DD": 2,
+      "XX": 1
+    }
+  },
+  "10": {
+    "jp": "強行偵察任務",
+    "time": 90,
+    "output": {
+      "ammo": 50,
+      "bauxite": 30
+    },
+    "cost": {
+      "fuel": 3
+    },
+    "fleet": {
+      "CL": 2,
+      "XX": 1
+    }
+  },
+  "11": {
+    "jp": "ボーキサイト輸送任務",
+    "time": 300,
+    "output": {
+      "bauxite": 250
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "12": {
+    "jp": "資源輸送任務",
+    "time": 480,
+    "output": {
+      "fuel": 50,
+      "ammo": 250,
+      "steel": 200,
+      "bauxite": 50
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "13": {
+    "jp": "鼠輸送作戦",
+    "time": 240,
+    "output": {
+      "fuel": 240,
+      "ammo": 300
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 4
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 4,
+      "XX": 1
+    }
+  },
+  "14": {
+    "jp": "包囲陸戦隊撤収作戦",
+    "time": 360,
+    "output": {
+      "ammo": 240,
+      "steel": 200
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 3,
+      "XX": 2
+    }
+  },
+  "15": {
+    "jp": "囮機動部隊支援作戦",
+    "time": 720,
+    "output": {
+      "steel": 300,
+      "bauxite": 400
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 4
+    },
+    "fleet": {
+      "AV": 2,
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "16": {
+    "jp": "艦隊決戦援護作戦",
+    "time": 900,
+    "output": {
+      "fuel": 500,
+      "ammo": 500,
+      "steel": 200,
+      "bauxite": 200
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 4
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 2,
+      "XX": 3
+    }
+  },
+  "17": {
+    "jp": "敵地偵察作戦",
+    "time": 45,
+    "output": {
+      "fuel": 70,
+      "ammo": 70,
+      "steel": 50
+    },
+    "cost": {
+      "fuel": 3,
+      "ammo": 4
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 3,
+      "XX": 2
+    }
+  },
+  "18": {
+    "jp": "航空機輸送作戦",
+    "time": 300,
+    "output": {
+      "steel": 300,
+      "bauxite": 100
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 2
+    },
+    "fleet": {
+      "AV": 3,
+      "DD": 2,
+      "XX": 1
+    }
+  },
+  "19": {
+    "jp": "北号作戦",
+    "time": 360,
+    "output": {
+      "fuel": 400,
+      "steel": 50,
+      "bauxite": 30
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 4
+    },
+    "fleet": {
+      "BBV": 2,
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "20": {
+    "jp": "潜水艦哨戒任務",
+    "time": 120,
+    "output": {
+      "steel": 150
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 4
+    },
+    "fleet": {
+      "SS": 1,
+      "CL": 1
+    }
+  },
+  "21": {
+    "jp": "北方鼠輸送作戦",
+    "time": 140,
+    "output": {
+      "fuel": 320,
+      "ammo": 270
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 7
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 4
+    }
+  },
+  "22": {
+    "jp": "艦隊演習",
+    "time": 180,
+    "output": {
+      "ammo": 10
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 7
+    },
+    "fleet": {
+      "CA": 1,
+      "CL": 1,
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "23": {
+    "jp": "航空戦艦運用演習",
+    "time": 240,
+    "output": {
+      "ammo": 20,
+      "bauxite": 100
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "BBV": 2,
+      "DD": 2,
+      "XX": 2
+    }
+  },
+  "24": {
+    "jp": "北方航路海上護衛",
+    "time": 500,
+    "output": {
+      "fuel": 500,
+      "bauxite": 150
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 6
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 4,
+      "XX": 1
+    }
+  },
+  "25": {
+    "jp": "通商破壊作戦",
+    "time": 2400,
+    "output": {
+      "fuel": 900,
+      "steel": 500
+    },
+    "cost": {
+      "fuel": 5,
+      "ammo": 8
+    },
+    "fleet": {
+      "CA": 2,
+      "DD": 2
+    }
+  },
+  "26": {
+    "jp": "敵母港空襲作戦",
+    "time": 4800,
+    "output": {
+      "bauxite": 900
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "AV": 1,
+      "CL": 1,
+      "DD": 2
+    }
+  },
+  "27": {
+    "jp": "潜水艦通商破壊作戦",
+    "time": 1200,
+    "output": {
+      "steel": 800
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "SS": 2
+    }
+  },
+  "28": {
+    "jp": "西方海域封鎖作戦",
+    "time": 1500,
+    "output": {
+      "steel": 900,
+      "bauxite": 350
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "SS": 3
+    }
+  },
+  "29": {
+    "jp": "潜水艦派遣演習",
+    "time": 1440,
+    "output": {
+      "bauxite": 100
+    },
+    "cost": {
+      "fuel": 9,
+      "ammo": 4
+    },
+    "fleet": {
+      "SS": 3
+    }
+  },
+  "30": {
+    "jp": "潜水艦派遣作戦",
+    "time": 2880,
+    "output": {
+      "bauxite": 100
+    },
+    "cost": {
+      "fuel": 9,
+      "ammo": 7
+    },
+    "fleet": {
+      "SS": 4
+    }
+  },
+  "31": {
+    "jp": "海外艦との接触",
+    "time": 120,
+    "output": {
+      "ammo": 30
+    },
+    "cost": {
+      "fuel": 5
+    },
+    "fleet": {
+      "SS": 4
+    }
+  },
+  "32": {
+    "jp": "遠洋練習航海",
+    "time": 1440,
+    "output": {
+      "fuel": 50,
+      "ammo": 50,
+      "steel": 50,
+      "bauxite": 50
+    },
+    "cost": {
+      "fuel": 9,
+      "ammo": 3
+    },
+    "fleet": {
+      "CT": 1,
+      "DD": 2,
+      "XX": 3
+    }
+  },
+  "35": {
+    "jp": "ＭＯ作戦",
+    "time": 420,
+    "output": {
+      "steel": 240,
+      "bauxite": 280
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "AV": 2,
+      "CA": 1,
+      "DD": 1,
+      "XX": 2
+    }
+  },
+  "36": {
+    "jp": "水上機基地建設",
+    "time": 540,
+    "output": {
+      "fuel": 480,
+      "steel": 200,
+      "bauxite": 200
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "AV": 2,
+      "CL": 1,
+      "DD": 1,
+      "XX": 2
+    }
+  },
+  "37": {
+    "jp": "東京急行",
+    "time": 165,
+    "output": {
+      "ammo": 380,
+      "steel": 270
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "CL": 1,
+      "DD": 5
+    }
+  },
+  "38": {
+    "jp": "東京急行(弐)",
+    "time": 175,
+    "output": {
+      "fuel": 420,
+      "steel": 200
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 8
+    },
+    "fleet": {
+      "DD": 5,
+      "XX": 1
+    }
+  },
+  "39": {
+    "jp": "遠洋潜水艦作戦",
+    "time": 1800,
+    "output": {
+      "steel": 300
+    },
+    "cost": {
+      "fuel": 9,
+      "ammo": 9
+    },
+    "fleet": {
+      "AS": 1,
+      "SS": 4
+    }
+  },
+  "40": {
+    "jp": "水上機前線輸送",
+    "time": 410,
+    "output": {
+      "fuel": 300,
+      "ammo": 300,
+      "bauxite": 100
+    },
+    "cost": {
+      "fuel": 8,
+      "ammo": 7
+    },
+    "fleet": {
+      "CL": 1,
+      "AV": 2,
+      "DD": 2,
+      "XX": 1
+    }
+  }
+}

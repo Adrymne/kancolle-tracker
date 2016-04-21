@@ -1,0 +1,9 @@
+{
+  "plugins": ["meteor"],
+  "extends": ["airbnb", "plugin:meteor/guide"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}

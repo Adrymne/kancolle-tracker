@@ -1,0 +1,25 @@
+{
+  "name": "kctracker",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "mantra-core": "^1.5.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.0.1",
+    "react-bootstrap": "^0.28.5",
+    "react-dom": "^15.0.1",
+    "react-mounter": "^1.2.0",
+    "react-redux": "^4.4.4",
+    "redux": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-meteor": "^3.4.0",
+    "eslint-plugin-react": "^4.3.0",
+    "eslint_d": "^3.1.0"
+  }
+}
