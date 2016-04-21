@@ -1,6 +1,7 @@
 import ResultTable from '../components/ResultTable';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 import { entries } from '/lib/util';
+import _ from 'lodash';
 
 function rankExpeditions(expeditions) {
   // TEMP
@@ -20,6 +21,7 @@ function rankExpeditions(expeditions) {
     return {
       ...expedition,
       score,
+      isSparkled: !! _.find(expedition.fleet, { isSparkled: true }),
     };
   }).sort((a, b) => b.score - a.score);
 }

@@ -21,7 +21,12 @@ const ResultTable = ({ expeditions }) => (
       <tr key={expedition._id}>
         <td>{expedition.num}</td>
         <td>{expedition.jp}</td>
-        <td><ExpeditionFleet fleet={expedition.fleet} /></td>
+        <td>
+          <ExpeditionFleet
+            fleet={expedition.fleet}
+            isSparkled={expedition.isSparkled}
+          />
+        </td>
         <td>{expedition.output.fuel}</td>
         <td>{expedition.output.ammo}</td>
         <td>{expedition.output.steel}</td>
