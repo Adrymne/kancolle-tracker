@@ -85,6 +85,7 @@ function getResourceDelta(expedition) {
   const cost = getFleetCost(expedition);
   const isGS = !! _.find(fleet, { isSparkled: true });
   for (const resourceType of Object.keys(result)) {
+    // TODO: Calculate GS chance multiplier by number of sparkled ships
     result[resourceType] += (output[resourceType] || 0) * ((isGS) ? 1.5 * 0.95 : 1);
     result[resourceType] -= (cost[resourceType] || 0);
     result[resourceType] *= 60.0 / time; // convert to hourly rate

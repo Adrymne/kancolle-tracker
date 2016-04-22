@@ -3,16 +3,7 @@ import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 import { entries } from '/lib/util';
 import _ from 'lodash';
 
-function rankExpeditions(expeditions) {
-  // TEMP
-  // TODO: Load from redux store
-  const resourceWeights = {
-    fuel: 1,
-    ammo: 1,
-    steel: 1,
-    bauxite: 1,
-  };
-  // TEMP END
+function rankExpeditions({ expeditions, resourceWeights }) {
   return expeditions.map((expedition) => {
     let score = 0;
     for (const [resourceType, weight] of entries(resourceWeights)) {
@@ -27,11 +18,24 @@ function rankExpeditions(expeditions) {
 }
 
 export const composer = ({ context }, onData) => {
-  const { Meteor, Collections } = context();
+  const { Meteor, Collections, Store } = context();
   if (Meteor.subscribe('expeditions.list').ready()) {
     const expeditions = Collections.Expeditions.find().fetch();
+    const update = () => {
+      try {
+        onData(null, {
+          expeditions: rankExpeditions({
+            expeditions,
+            resourceWeights: Store.getState().resourceWeight,
+          }),
+        });
+      } catch (e) {
+        onData(e);
+      }
+    };
     try {
-      onData(null, { expeditions: rankExpeditions(expeditions) });
+      Store.subscribe(update);
+      update();
     } catch (e) {
       onData(e);
     }

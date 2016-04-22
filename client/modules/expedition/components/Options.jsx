@@ -1,21 +1,19 @@
 import React from 'react';
 import { Panel } from 'react-bootstrap';
+import ResourceWeightInput from '../containers/ResourceWeightInput';
 
 const RESOURCES = ['fuel', 'ammo', 'steel', 'bauxite'];
 
 const Options = () => (
   <Panel>
     <form className="form-inline row">
-      {RESOURCES.map((name) => (
-        <div className="form-group col-xs-3">
-          <label htmlFor={`${name}-score-input`} style={{ marginRight: '4px' }}>
-            {`${name}:`}
-          </label>
-          <input type="text" key={`${name}-score-input`} value={1}
-            style={{ textAlign: 'center' }}
-          />
-        </div>
-      ))}
+    {RESOURCES.map((name, index) => (
+      <ResourceWeightInput
+        key={index}
+        resource={name}
+        size={`col-xs-${12 / RESOURCES.length}`}
+      />
+    ))}
     </form>
   </Panel>
 );
