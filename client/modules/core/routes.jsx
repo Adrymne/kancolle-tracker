@@ -2,8 +2,8 @@ import React from 'react';
 import { mount } from 'react-mounter';
 
 import MainLayout from './components/main_layout';
-import ExpeditionCalculator from '../expedition/containers/Calculator';
-import QuestTree from '../quest/containers/QuestTree';
+import ExpeditionCalculator from '../expedition/components/calculator';
+import QuestTree from '../quest/containers/quest_tree';
 
 export default function (injectDeps, { FlowRouter }) {
   const context = injectDeps(MainLayout);

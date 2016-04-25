@@ -1,5 +1,5 @@
 import React from 'react';
-import Quest from '../containers/Quest';
+import Quest from '../containers/quest';
 
 const QuestTree = ({ size, quests }) => {
   if (!quests) {

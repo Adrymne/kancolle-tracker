@@ -1,4 +1,4 @@
-import QuestTree from '../components/QuestTree';
+import QuestTree from '../components/quest_tree';
 import { composeAll, composeWithTracker, useDeps } from 'mantra-core';
 
 export const composer = ({ context }, onData) => {

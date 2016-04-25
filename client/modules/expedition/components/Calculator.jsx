@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row } from 'react-bootstrap';
-import ResultTable from '../containers/ResultTable';
-import Options from '../containers/Options';
+import ResultTable from '../containers/result_table';
+import Options from '../components/options';
 
 const Calculator = () => (
   <Grid>

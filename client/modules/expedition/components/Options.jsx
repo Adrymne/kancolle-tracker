@@ -1,6 +1,6 @@
 import React from 'react';
 import { Panel } from 'react-bootstrap';
-import ResourceWeightInput from '../containers/ResourceWeightInput';
+import ResourceWeightInput from '../containers/resource_weight_input';
 
 const RESOURCES = ['fuel', 'ammo', 'steel', 'bauxite'];
 

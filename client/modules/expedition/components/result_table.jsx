@@ -1,6 +1,6 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
-import ExpeditionFleet from './ExpeditionFleet';
+import ExpeditionFleet from './expedition_fleet';
 
 const ResultTable = ({ expeditions }) => (
   <Table>

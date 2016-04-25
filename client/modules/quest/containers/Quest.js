@@ -1,4 +1,4 @@
-import Quest from '../components/Quest';
+import Quest from '../components/quest';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 
 export const composer = ({ context }, onData) => {

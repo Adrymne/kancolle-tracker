@@ -1,4 +1,4 @@
-import ResultTable from '../components/ResultTable';
+import ResultTable from '../components/result_table';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 import { entries } from '/lib/util';
 import _ from 'lodash';

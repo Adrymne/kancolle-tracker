@@ -1,4 +1,4 @@
-import ResourceWeightInput from '../components/ResourceWeightInput';
+import ResourceWeightInput from '../components/resource_weight_input';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 
 // TODO: Allow decimal input (see http://stackoverflow.com/questions/28072727/translating-between-cents-and-dollars-in-html-input-in-react/28077112#28077112)
