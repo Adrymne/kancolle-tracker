@@ -5,6 +5,7 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "dagre": "^0.7.4",
     "lodash": "^4.11.1",
     "mantra-core": "^1.5.0",
     "meteor-node-stubs": "~0.2.0",
