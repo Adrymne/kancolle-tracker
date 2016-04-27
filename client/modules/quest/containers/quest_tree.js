@@ -4,13 +4,13 @@ import { composeAll, composeWithTracker, useDeps } from 'mantra-core';
 export const composer = ({ context }, onData) => {
   const { Store } = context();
   const update = () => {
-    const store = Store.getState();
+    const state = Store.getState();
     onData(null, {
-      size: store.svgSize,
-      quests: store.quests.nodes,
+      quests: state.quests.nodes,
     });
   };
   Store.subscribe(update);
+  update();
 };
 
 export default composeAll(

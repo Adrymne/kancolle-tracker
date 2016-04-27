@@ -1,7 +1,7 @@
-import svgSize from './svg_size';
+import svg from './svg';
 import quests from './quests';
 
 export default {
-  ...svgSize,
+  ...svg,
   ...quests,
 };

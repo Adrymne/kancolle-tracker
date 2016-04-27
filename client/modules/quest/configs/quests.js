@@ -1,4 +1,4 @@
-export default function loadQuests(context, actions) {
+export default function load(context, actions) {
   const { Meteor, Collections, Tracker } = context;
   Meteor.subscribe('quests.list', () => {
     Tracker.autorun(() => {
