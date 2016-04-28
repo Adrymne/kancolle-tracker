@@ -1,7 +1,7 @@
 import dagre from 'dagre';
 import _ from 'lodash';
 
-function buildGraph(quests) {
+function buildGraph(state, { quests }) {
   const graph = new dagre.graphlib.Graph()
       .setGraph({ ranksep: 75, nodesep: 75 })
       .setDefaultEdgeLabel(() => ({}));
@@ -31,11 +31,19 @@ function buildGraph(quests) {
   return result;
 }
 
+function selectQuest({ selected }, { _id }) {
+  return {
+    selected: (selected === _id) ? null : _id,
+  };
+}
+
 export default {
   quests(state = null, action) {
     switch (action.type) {
       case 'BUILD_QUEST_GRAPH':
-        return buildGraph(action.quests);
+        return { ...state, ...buildGraph(state, action) };
+      case 'SELECT_QUEST':
+        return { ...state, ...selectQuest(state, action) };
       default:
         return state;
     }

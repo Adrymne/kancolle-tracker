@@ -13,12 +13,24 @@ const QUEST_TYPES = {
 };
 
 export const composer = ({ context, _id }, onData) => {
-  onData(null, {
-    questType: QUEST_TYPES[_id[0]],
-  });
+  const { Store } = context();
+  const update = () => {
+    const state = Store.getState();
+    onData(null, {
+      questType: QUEST_TYPES[_id[0]],
+      isSelected: state.quests.selected === _id,
+    });
+  };
+  Store.subscribe(update);
+  update();
 };
+
+export const depsMapper = (context, actions) => ({
+  onClick: actions.quests.select,
+  context: () => context,
+});
 
 export default composeAll(
   composeWithTracker(composer),
-  useDeps()
+  useDeps(depsMapper)
 )(Quest);

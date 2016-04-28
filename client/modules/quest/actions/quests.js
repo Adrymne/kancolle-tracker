@@ -5,4 +5,10 @@ export default {
       quests,
     });
   },
+  select({ Store }, _id) {
+    Store.dispatch({
+      type: 'SELECT_QUEST',
+      _id,
+    });
+  },
 };
