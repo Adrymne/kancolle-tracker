@@ -1,6 +1,6 @@
 import ResultTable from '../components/result_table';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
-import { entries } from '/lib/util';
+import { composeWithRedux, entries } from '/lib/util';
 import _ from 'lodash';
 
 function rankExpeditions({ expeditions, resourceWeights }) {
@@ -17,32 +17,27 @@ function rankExpeditions({ expeditions, resourceWeights }) {
   }).sort((a, b) => b.score - a.score);
 }
 
-export const composer = ({ context }, onData) => {
-  const { Meteor, Collections, Store } = context();
+export const collectionComposer = ({ context }, onData) => {
+  const { Meteor, Collections } = context();
   if (Meteor.subscribe('expeditions.list').ready()) {
-    const expeditions = Collections.Expeditions.find().fetch();
-    const update = () => {
-      try {
-        onData(null, {
-          expeditions: rankExpeditions({
-            expeditions,
-            resourceWeights: Store.getState().resourceWeight,
-          }),
-        });
-      } catch (e) {
-        onData(e);
-      }
-    };
-    try {
-      Store.subscribe(update);
-      update();
-    } catch (e) {
-      onData(e);
-    }
+    onData(null, {
+      expeditions: Collections.Expeditions.find().fetch(),
+    });
   }
 };
 
+export const reduxComposer = ({ expeditions, context }, onData) => {
+  const { Store } = context();
+  onData(null, {
+    expeditions: rankExpeditions({
+      expeditions,
+      resourceWeights: Store.getState().resourceWeight,
+    }),
+  });
+};
+
 export default composeAll(
-  composeWithTracker(composer),
+  composeWithRedux(reduxComposer),
+  composeWithTracker(collectionComposer),
   useDeps()
 )(ResultTable);

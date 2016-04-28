@@ -1,5 +1,6 @@
 import Quest from '../components/quest';
-import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
+import { useDeps, composeAll } from 'mantra-core';
+import { composeWithRedux } from '/lib/util';
 
 const QUEST_TYPES = {
   A: 'composition',
@@ -14,15 +15,11 @@ const QUEST_TYPES = {
 
 export const composer = ({ context, _id }, onData) => {
   const { Store } = context();
-  const update = () => {
-    const state = Store.getState();
-    onData(null, {
-      questType: QUEST_TYPES[_id[0]],
-      isSelected: state.quests.selected === _id,
-    });
-  };
-  Store.subscribe(update);
-  update();
+  const state = Store.getState();
+  onData(null, {
+    questType: QUEST_TYPES[_id[0]],
+    isSelected: state.quests.selected === _id,
+  });
 };
 
 export const depsMapper = (context, actions) => ({
@@ -31,6 +28,6 @@ export const depsMapper = (context, actions) => ({
 });
 
 export default composeAll(
-  composeWithTracker(composer),
+  composeWithRedux(composer),
   useDeps(depsMapper)
 )(Quest);

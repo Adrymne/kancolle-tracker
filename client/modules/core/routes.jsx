@@ -3,7 +3,7 @@ import { mount } from 'react-mounter';
 
 import MainLayout from './components/main_layout';
 import ExpeditionCalculator from '../expedition/components/calculator';
-import QuestDisplay from '../quest/containers/quest_display';
+import QuestTree from '../quest/containers/quest_tree';
 
 export default function (injectDeps, { FlowRouter }) {
   const context = injectDeps(MainLayout);
@@ -12,7 +12,7 @@ export default function (injectDeps, { FlowRouter }) {
     name: 'questTree',
     action() {
       mount(context, {
-        content: () => (<QuestDisplay />),
+        content: () => (<QuestTree />),
       });
     },
   });

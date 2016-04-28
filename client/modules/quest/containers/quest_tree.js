@@ -1,19 +1,38 @@
 import QuestTree from '../components/quest_tree';
 import { composeAll, composeWithTracker, useDeps } from 'mantra-core';
+import { composeWithRedux } from '/lib/util';
 
-export const composer = ({ context }, onData) => {
-  const { Store } = context();
-  const update = () => {
-    const state = Store.getState();
-    onData(null, {
-      quests: state.quests.nodes,
-    });
-  };
-  Store.subscribe(update);
-  update();
+export const collectionComposer = ({ context, actions }, onData) => {
+  const { Meteor, Collections } = context();
+  const { quests: { buildTree: build } } = actions();
+  if (Meteor.subscribe('quests.list').ready()) {
+    const quests = Collections.Quests.find().fetch();
+    build(quests);
+    onData(null, {});
+  }
 };
 
+export const reduxComposer = ({ context }, onData) => {
+  const { Store } = context();
+  const state = Store.getState();
+  if (!state.quests) {
+    return;
+  }
+  onData(null, {
+    ...state.svg,
+    quests: state.quests.nodes,
+  });
+};
+
+export const depsMapper = (context, actions) => ({
+  onResize: actions.svg.resize,
+  onZoom: actions.svg.zoom,
+  actions: () => actions,
+  context: () => context,
+});
+
 export default composeAll(
-  composeWithTracker(composer),
-  useDeps()
+  composeWithRedux(reduxComposer),
+  composeWithTracker(collectionComposer),
+  useDeps(depsMapper)
 )(QuestTree);

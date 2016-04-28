@@ -95,10 +95,10 @@ function getResourceDelta(expedition) {
 }
 
 export default function () {
-  // if (Expeditions.find().count() !== 0) {
-  //   return;
-  // }
-  Expeditions.remove({}); // TEMP
+  if (Expeditions.find().count() !== 0) {
+    return;
+  }
+  // Expeditions.remove({}); // TEMP
   const expeditions = JSON.parse(Assets.getText('expeditions.json'));
   for (const [num, expedition] of entries(expeditions)) {
     getFleets(expedition.fleet).forEach((fleet) => {

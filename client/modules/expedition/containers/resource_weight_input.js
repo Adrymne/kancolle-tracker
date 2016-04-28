@@ -1,16 +1,13 @@
 import ResourceWeightInput from '../components/resource_weight_input';
-import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
+import { useDeps, composeAll } from 'mantra-core';
+import { composeWithRedux } from '/lib/util';
 
 // TODO: Allow decimal input (see http://stackoverflow.com/questions/28072727/translating-between-cents-and-dollars-in-html-input-in-react/28077112#28077112)
 export const composer = ({ context }, onData) => {
   const { Store } = context();
-  const update = () => {
-    onData(null, {
-      resourceWeights: Store.getState().resourceWeight,
-    });
-  };
-  Store.subscribe(update);
-  update();
+  onData(null, {
+    resourceWeights: Store.getState().resourceWeight,
+  });
 };
 
 export const depsMapper = (context, actions) => ({
@@ -19,6 +16,6 @@ export const depsMapper = (context, actions) => ({
 });
 
 export default composeAll(
-  composeWithTracker(composer),
+  composeWithRedux(composer),
   useDeps(depsMapper)
 )(ResourceWeightInput);
