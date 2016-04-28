@@ -3,6 +3,17 @@ import ReactDOM from 'react-dom';
 import Label from './label';
 import _ from 'lodash';
 
+const questColour = {
+  composition: '#43C769',
+  sortie: '#EC6063',
+  pvp: '#93CE67',
+  expedition: '#4EBBD4',
+  resupply: '#DEC772',
+  arsenal: '#BA8F79',
+  modernization: '#CAA6DD',
+  marriage: '#FDD0F0',
+};
+
 class Quest extends React.Component {
   constructor(props) {
     super(props);
@@ -27,14 +38,14 @@ class Quest extends React.Component {
   }
 
   render() {
-    const { _id, x, y } = this.props;
+    const { _id, x, y, questType } = this.props;
     const { width, height } = this.state;
     return (
       <g transform={`translate(${x},${y})`} data-id={_id}>
         <rect
           x={-width / 2} y={-height / 2}
           width={width} height={height}
-          stroke="#000" fill="#fff"
+          stroke="#000" fill={questColour[questType]}
         />
         <Label text={_id} />
       </g>
@@ -46,6 +57,7 @@ Quest.propTypes = {
   _id: React.PropTypes.string.isRequired,
   x: React.PropTypes.number.isRequired,
   y: React.PropTypes.number.isRequired,
+  questType: React.PropTypes.string.isRequired,
 };
 
 export default Quest;
