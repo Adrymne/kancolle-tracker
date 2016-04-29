@@ -29,7 +29,7 @@ class QuestTree extends React.Component {
         width={width} height={height}
         style={{ border: '1px solid rgb(170,170,170)' }}
       >
-        <g>
+        <g className="quest-tree">
           {quests.map(quest => (
             <Quest key={quest._id} {...quest} />
           ))}
