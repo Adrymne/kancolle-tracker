@@ -1,5 +1,6 @@
 import React from 'react';
 import Quest from '../containers/quest';
+import QuestDetails from '../containers/details';
 import d3 from 'd3';
 
 class QuestTree extends React.Component {
@@ -34,6 +35,7 @@ class QuestTree extends React.Component {
             <Quest key={quest._id} {...quest} />
           ))}
         </g>
+        <QuestDetails />
       </svg>
     );
   }
