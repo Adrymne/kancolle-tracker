@@ -1,23 +1,13 @@
 import Quest from '../components/quest';
 import { useDeps, composeAll } from 'mantra-core';
 import { composeWithRedux } from '/lib/util';
-
-const QUEST_TYPES = {
-  A: 'composition',
-  B: 'sortie',
-  C: 'pvp',
-  D: 'expedition',
-  E: 'resupply',
-  F: 'arsenal',
-  G: 'modernization',
-  W: 'marriage',
-};
+import { getQuestColour } from '../libs/quest';
 
 export const composer = ({ context, _id }, onData) => {
   const { Store } = context();
   const state = Store.getState();
   onData(null, {
-    questType: QUEST_TYPES[_id[0]],
+    questColour: getQuestColour(_id),
     isSelected: state.quests.selected === _id,
   });
 };
