@@ -9,6 +9,7 @@ export const composer = ({ context, _id }, onData) => {
   onData(null, {
     questColour: getQuestColour(_id),
     isSelected: state.quests.selected === _id,
+    completion: state.quests.completion[_id] || 'inactive',
   });
 };
 

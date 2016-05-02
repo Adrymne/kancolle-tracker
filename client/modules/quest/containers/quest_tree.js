@@ -27,6 +27,9 @@ export const reduxComposer = ({ context }, onData) => {
 export const depsMapper = (context, actions) => ({
   onResize: actions.svg.resize,
   onZoom: actions.svg.zoom,
+  keybinds: {
+    space: actions.quests.toggleCompletion,
+  },
   actions: () => actions,
   context: () => context,
 });

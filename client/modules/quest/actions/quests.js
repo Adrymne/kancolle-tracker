@@ -11,4 +11,12 @@ export default {
       _id,
     });
   },
+  toggleCompletion({ Store }) {
+    const state = Store.getState();
+    Store.dispatch({
+      type: 'TOGGLE_QUEST_COMPLETION',
+      _id: state.quests.selected || null,
+      quests: state.quests.data,
+    });
+  },
 };

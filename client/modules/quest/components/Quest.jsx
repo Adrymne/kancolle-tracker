@@ -38,7 +38,7 @@ class Quest extends React.Component {
   }
 
   render() {
-    const { _id, x, y, questColour, isSelected } = this.props;
+    const { _id, x, y, questColour, isSelected, completion } = this.props;
     const { width, height } = this.state;
     return (
       <g className={isSelected ? 'selected' : ''}
@@ -48,8 +48,9 @@ class Quest extends React.Component {
           x={-width / 2} y={-height / 2}
           width={width} height={height}
           fill={questColour}
+          fillOpacity={completion === 'inactive' ? 0.2 : 1}
         />
-        <Label text={_id} />
+        <Label text={_id} completion={completion} />
       </g>
     );
   }
@@ -62,6 +63,7 @@ Quest.propTypes = {
   questColour: React.PropTypes.string.isRequired,
   isSelected: React.PropTypes.bool,
   onClick: React.PropTypes.func.isRequired,
+  completion: React.PropTypes.string.isRequired,
 };
 
 export default Quest;

@@ -1,8 +1,9 @@
 import Prerequisites from '../components/prerequisites';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 
-function isComplete() {
-  return false;
+// TODO: read completion status from the redux store
+function isComplete({ Store }, questId) {
+  return Store.getState().quests.completion[questId] === 'complete';
 }
 
 function getPrereqs(context, questId) {
@@ -19,7 +20,7 @@ function getPrereqs(context, questId) {
   , [quest]);
 }
 
-export const composer = ({ context, quests }, onData) => {
+export const composer = ({ context, quests = [] }, onData) => {
   const { Meteor } = context();
   if (!Meteor.subscribe('quests.list').ready()) {
     return;

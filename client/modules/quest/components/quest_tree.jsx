@@ -1,6 +1,7 @@
 import React from 'react';
 import Quest from '../containers/quest';
 import QuestDetails from '../containers/details';
+import { HotKeys } from 'react-hotkeys';
 import d3 from 'd3';
 
 class QuestTree extends React.Component {
@@ -24,8 +25,9 @@ class QuestTree extends React.Component {
   }
 
   render() {
-    const { width, height, quests } = this.props;
+    const { width, height, quests, keybinds } = this.props;
     return (
+      <HotKeys focused attach={window} handlers={keybinds}>
       <svg
         width={width} height={height}
         style={{ border: '1px solid rgb(170,170,170)' }}
@@ -37,6 +39,7 @@ class QuestTree extends React.Component {
         </g>
         <QuestDetails />
       </svg>
+      </HotKeys>
     );
   }
 }
@@ -46,6 +49,7 @@ QuestTree.propTypes = {
   onResize: React.PropTypes.func.isRequired,
   onZoom: React.PropTypes.func.isRequired,
   quests: React.PropTypes.array.isRequired,
+  keybinds: React.PropTypes.object.isRequired,
 };
 
 export default QuestTree;
