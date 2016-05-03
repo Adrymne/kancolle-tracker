@@ -1,7 +1,5 @@
 import _ from 'lodash';
 
-// TODO: Calculate active/inactive from completed quests
-
 const STATE = {
   INACTIVE: 'inactive',
   ACTIVE: 'active',

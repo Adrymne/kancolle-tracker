@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import Prerequisite from '../containers/prerequisite';
 
-const Prerequisites = ({ quests }) => {
+const PrerequisiteList = ({ quests }) => {
   if (_.isEmpty(quests)) {
     return null;
   }
@@ -14,8 +14,8 @@ const Prerequisites = ({ quests }) => {
     </ul>
   );
 };
-Prerequisites.propTypes = {
+PrerequisiteList.propTypes = {
   quests: React.PropTypes.array,
 };
 
-export default Prerequisites;
+export default PrerequisiteList;

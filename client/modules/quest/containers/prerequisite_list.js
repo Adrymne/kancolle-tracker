@@ -1,4 +1,4 @@
-import Prerequisites from '../components/prerequisites';
+import PrerequisiteList from '../components/prerequisite_list';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 
 // TODO: read completion status from the redux store
@@ -39,4 +39,4 @@ export const composer = ({ context, quests = [] }, onData) => {
 export default composeAll(
   composeWithTracker(composer),
   useDeps()
-)(Prerequisites);
+)(PrerequisiteList);

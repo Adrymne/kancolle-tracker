@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import QuestRewards from '../containers/quest_rewards';
-import Prerequisites from '../containers/prerequisites';
+import PrerequisiteList from '../containers/prerequisite_list';
 
 const MODAL_STYLE = {
   pointerEvents: 'none',
@@ -33,7 +33,7 @@ const Details = (selectedQuest) => {
             <h4><small>{jp}</small></h4>
             <p>{description}</p>
             <QuestRewards rewards={rewards} />
-            <Prerequisites quests={requires} />
+            <PrerequisiteList quests={requires} />
           </Col></Row>
         </Grid>
       </foreignObject>
