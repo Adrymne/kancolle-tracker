@@ -26,9 +26,10 @@ function buildGraph(state, { quests }) {
   };
   graph.nodes().forEach((id) => {
     const node = graph.node(id);
-    result.nodes.push(_.pick(node, ['_id', 'x', 'y']));
+    result.nodes.push({ ..._.pick(node, ['_id', 'x', 'y']), width: 0, height: 0 });
     result.data[id] = { ..._.omit(node, ['_id', 'x', 'y']), unlocks: [] };
   });
+  result.edges = graph.edges().map((edge) => ({ ...edge, ...graph.edge(edge) }));
   // define parent > child references
   graph.nodes().forEach((id) => {
     _.each(result.data[id].requires, (parentId) => {
@@ -36,6 +37,10 @@ function buildGraph(state, { quests }) {
     });
   });
   return result;
+}
+
+function setNodeDimensions({ nodes }, { dimensions }) {
+  return nodes.map(node => ({ ...node, ...dimensions[node._id] }));
 }
 
 function selectQuest({ selected }, { _id }) {
@@ -54,6 +59,8 @@ export default {
     switch (action.type) {
       case 'BUILD_QUEST_GRAPH':
         return { ...state, ...buildGraph(state, action) };
+      case 'SET_QUEST_NODE_DIMENSIONS':
+        return { ...state, nodes: setNodeDimensions(state, action) };
       case 'SELECT_QUEST':
         return { ...state, selected: selectQuest(state, action) };
       case 'TOGGLE_QUEST_COMPLETION':

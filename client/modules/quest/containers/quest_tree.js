@@ -21,12 +21,14 @@ export const reduxComposer = ({ context }, onData) => {
   onData(null, {
     ...state.svg,
     quests: state.quests.nodes,
+    edges: state.quests.edges,
   });
 };
 
 export const depsMapper = (context, actions) => ({
   onResize: actions.svg.resize,
   onZoom: actions.svg.zoom,
+  loadQuestNodeDimensions: actions.quests.loadQuestNodeDimensions,
   keybinds: {
     space: actions.quests.toggleCompletion,
   },

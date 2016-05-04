@@ -1,3 +1,5 @@
+import d3 from 'd3';
+
 export default {
   buildTree({ Store }, quests) {
     Store.dispatch({
@@ -17,6 +19,21 @@ export default {
       type: 'TOGGLE_QUEST_COMPLETION',
       _id: state.quests.selected || null,
       quests: state.quests.data,
+    });
+  },
+  loadQuestNodeDimensions({ Store }, { padding }) {
+    const result = {};
+    d3.selectAll('.quest-node').each(function getNodeDimensions() { // eslint-disable-line prefer-arrow-callback
+      const bbox = this.getBBox();
+      const id = d3.select(this).attr('data-id');
+      result[id] = {
+        width: bbox.width + padding.left + padding.right,
+        height: bbox.height + padding.top + padding.bottom,
+      };
+    });
+    Store.dispatch({
+      type: 'SET_QUEST_NODE_DIMENSIONS',
+      dimensions: result,
     });
   },
 };
