@@ -15,7 +15,7 @@ const Details = (selectedQuest) => {
   if (!selectedQuest) {
     return '';
   }
-  const { _id, name, jp, description, rewards, requires } = selectedQuest;
+  const { _id, name, jp, description, rewards, requires, colour } = selectedQuest;
   return (
     <g style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
       <foreignObject style={MODAL_STYLE}>
@@ -26,7 +26,13 @@ const Details = (selectedQuest) => {
         }}
         >
           <Row><Col xs={12}>
-            <h4>
+            <h4
+              style={{
+                border: '2px solid rgb(0,0,0)',
+                padding: '2px 3px 2px 3px',
+                background: colour,
+              }}
+            >
               <b>{`[${_id}] `}</b>
               {name}
             </h4>

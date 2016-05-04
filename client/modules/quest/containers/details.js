@@ -1,6 +1,7 @@
 import Details from '../components/details';
 import { useDeps, composeWithTracker, composeAll } from 'mantra-core';
 import { composeWithRedux } from '/lib/util';
+import { getQuestColour } from '../libs/quest';
 
 export const reduxComposer = ({ context }, onData) => {
   const { Store } = context();
@@ -17,7 +18,7 @@ export const collectionComposer = ({ context, selected }, onData) => {
   if (!quest) {
     onData(new Error(`Bad quest id  ${selected}`));
   } else {
-    onData(null, quest);
+    onData(null, { ...quest, colour: getQuestColour(quest._id) });
   }
 };
 
