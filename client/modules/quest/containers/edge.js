@@ -55,6 +55,7 @@ export const composer = ({ context, edge }, onData) => {
   const state = Store.getState();
   onData(null, {
     path: buildPath({ state }, edge),
+    id: `${edge.w}-${edge.v}`,
   });
 };
 
