@@ -41,13 +41,22 @@ function createLine(points) {
 
 // based on https://github.com/cpettitt/dagre-d3/blob/master/lib/create-edge-paths.js
 function buildPath({ state }, { points, v, w }) {
-  const head = _.find(state.quests.nodes, { _id: w });
-  const tail = _.find(state.quests.nodes, { _id: v });
+  const head = _.find(state.quests.nodes, { _id: v });
+  const tail = _.find(state.quests.nodes, { _id: w });
   return createLine([
-    intersect(tail, points[1]),
+    intersect(head, points[1]),
     ...points.slice(1, points.length - 1),
-    intersect(head, points[points.length - 2]),
+    intersect(tail, points[points.length - 2]),
   ]);
+}
+
+function edgeState({ state }, { v: head }) {
+  if (state.quests.selected === head) {
+    return 'selected';
+  } else if (state.quests.completion[head] === 'complete') {
+    return 'complete';
+  }
+  return 'incomplete';
 }
 
 export const composer = ({ context, edge }, onData) => {
@@ -56,6 +65,7 @@ export const composer = ({ context, edge }, onData) => {
   onData(null, {
     path: buildPath({ state }, edge),
     id: `${edge.w}-${edge.v}`,
+    state: edgeState({ state }, edge),
   });
 };
 
