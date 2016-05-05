@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Autosuggest from 'react-autosuggest';
 
 function getSuggestionValue({ value }) {
@@ -21,6 +22,10 @@ class SearchBox extends React.Component {
     this.onChange = this.onChange.bind(this);
     this.updateSuggestions = this.updateSuggestions.bind(this);
     this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
+  }
+
+  componentDidMount() {
+    this.input.focus();
   }
 
   onChange(event, { newValue }) {
@@ -66,6 +71,12 @@ class SearchBox extends React.Component {
             renderSuggestion={renderSuggestion}
             inputProps={inputProps}
             onSuggestionSelected={this.onSuggestionSelected}
+            ref={(autosuggest) => {
+              if (this.input || !autosuggest) {
+                return;
+              }
+              this.input = autosuggest.input;
+            }}
           />
         </foreignObject>
       </g>
