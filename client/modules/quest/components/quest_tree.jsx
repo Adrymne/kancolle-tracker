@@ -34,9 +34,9 @@ class QuestTree extends React.Component {
   }
 
   render() {
-    const { width, height, quests, keybinds, edges } = this.props;
+    const { width, height, quests, keyMap, keyHandlers, edges } = this.props;
     return (
-      <HotKeys focused attach={window} handlers={keybinds}>
+      <HotKeys focused attach={window} keyMap={keyMap} handlers={keyHandlers}>
       <svg
         width={width} height={height}
         style={{ border: '1px solid rgb(170,170,170)' }}
@@ -58,8 +58,9 @@ QuestTree.propTypes = {
   onZoom: React.PropTypes.func.isRequired,
   quests: React.PropTypes.array.isRequired,
   edges: React.PropTypes.array.isRequired,
-  keybinds: React.PropTypes.object.isRequired,
   loadQuestNodeDimensions: React.PropTypes.func.isRequired,
+  keyMap: React.PropTypes.object.isRequired,
+  keyHandlers: React.PropTypes.object.isRequired,
 };
 
 export default QuestTree;
