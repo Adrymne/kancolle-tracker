@@ -2,6 +2,7 @@ import React from 'react';
 import Quest from '../containers/quest';
 import Edge from '../containers/edge';
 import QuestDetails from '../containers/details';
+import SearchBox from '../containers/search_box';
 import { HotKeys } from 'react-hotkeys';
 import d3 from 'd3';
 
@@ -34,7 +35,7 @@ class QuestTree extends React.Component {
   }
 
   render() {
-    const { width, height, quests, keyMap, keyHandlers, edges } = this.props;
+    const { width, height, quests, keyMap, keyHandlers, edges, isSearchActive } = this.props;
     return (
       <HotKeys focused attach={window} keyMap={keyMap} handlers={keyHandlers}>
       <svg
@@ -45,6 +46,7 @@ class QuestTree extends React.Component {
           {edges.map((edge, index) => <Edge key={index} edge={edge} />)}
           {quests.map(quest => <Quest key={quest._id} {...quest} />)}
         </g>
+        {isSearchActive ? <SearchBox /> : null}
         <QuestDetails />
       </svg>
       </HotKeys>

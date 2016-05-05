@@ -23,6 +23,7 @@ export const reduxComposer = ({ context }, onData) => {
     quests: state.quests.nodes,
     edges: state.quests.edges,
     keyMap: state.keybinds.quest,
+    isSearchActive: !! state.search.mode,
   });
 };
 
@@ -32,6 +33,7 @@ export const depsMapper = (context, actions) => ({
   loadQuestNodeDimensions: actions.quests.loadQuestNodeDimensions,
   keyHandlers: {
     toggleCompletion: actions.quests.toggleCompletion,
+    searchByDescription: actions.search.startDescriptionSearch,
   },
   actions: () => actions,
   context: () => context,
