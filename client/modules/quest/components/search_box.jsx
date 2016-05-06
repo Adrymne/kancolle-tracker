@@ -64,13 +64,15 @@ class SearchBox extends React.Component {
     this.input.focus();
   }
 
-  onChange(event, { newValue }) {
-    this.setState({ value: newValue });
+  onChange(event, { newValue, method }) {
+    if (method === 'type') {
+      this.setState({ value: newValue });
+    }
   }
 
-  onSuggestionSelected(event, { suggestionValue }) {
+  onSuggestionSelected(event, { suggestion: { value: id } }) {
     const { onItemSelected } = this.props;
-    onItemSelected(suggestionValue);
+    onItemSelected(id);
   }
 
   getSuggestions(value) {

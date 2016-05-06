@@ -34,6 +34,7 @@ export const depsMapper = (context, actions) => ({
   keyHandlers: {
     toggleCompletion: actions.quests.toggleCompletion,
     searchByDescription: actions.search.startDescriptionSearch,
+    searchByRewards: actions.search.startRewardsSearch,
   },
   actions: () => actions,
   context: () => context,
