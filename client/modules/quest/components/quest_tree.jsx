@@ -46,8 +46,8 @@ class QuestTree extends React.Component {
           {edges.map((edge, index) => <Edge key={index} edge={edge} />)}
           {quests.map(quest => <Quest key={quest._id} {...quest} />)}
         </g>
-        {isSearchActive ? <SearchBox /> : null}
         <QuestDetails />
+        {isSearchActive ? <SearchBox /> : null}
       </svg>
       </HotKeys>
     );
@@ -63,6 +63,7 @@ QuestTree.propTypes = {
   loadQuestNodeDimensions: React.PropTypes.func.isRequired,
   keyMap: React.PropTypes.object.isRequired,
   keyHandlers: React.PropTypes.object.isRequired,
+  isSearchActive: React.PropTypes.bool.isRequired,
 };
 
 export default QuestTree;

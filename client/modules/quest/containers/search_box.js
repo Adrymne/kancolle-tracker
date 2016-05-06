@@ -29,6 +29,7 @@ export const composer = ({ context }, onData) => {
 
 export const depsMapper = (context, actions) => ({
   onItemSelected: actions.search.setSearchResult,
+  cancelSearch: actions.search.cancelSearch,
   context: () => context,
 });
 

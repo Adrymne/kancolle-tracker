@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Autosuggest from 'react-autosuggest';
 
 function getSuggestionValue({ value }) {
   return value;
 }
 
-function renderSuggestion({ text }) {
+function renderSuggestion({ text }) { // eslint-disable-line react/prop-types
   return <span>{text}</span>;
 }
 
@@ -52,10 +51,13 @@ class SearchBox extends React.Component {
 
   render() {
     const { value, suggestions } = this.state;
+    const { cancelSearch } = this.props;
     const inputProps = {
       placeholder: '',
       value,
       onChange: this.onChange,
+      onKeyDown: cancelSearch,
+      className: 'form-control',
     };
     return (
       <g
@@ -71,6 +73,12 @@ class SearchBox extends React.Component {
             renderSuggestion={renderSuggestion}
             inputProps={inputProps}
             onSuggestionSelected={this.onSuggestionSelected}
+            theme={{
+              container: {
+                border: '1px solid rgb(1, 1, 1)',
+                padding: '10px',
+              },
+            }}
             ref={(autosuggest) => {
               if (this.input || !autosuggest) {
                 return;
@@ -86,6 +94,7 @@ class SearchBox extends React.Component {
 SearchBox.propTypes = {
   items: React.PropTypes.array.isRequired,
   onItemSelected: React.PropTypes.func.isRequired,
+  cancelSearch: React.PropTypes.func.isRequired,
 };
 
 export default SearchBox;
