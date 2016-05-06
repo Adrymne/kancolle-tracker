@@ -1,6 +1,43 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
 
+// based on http://codepen.io/moroshko/pen/LGNJMy
+const SEARCH_THEME = {
+  input: {
+    width: '100%',
+    height: '34px',
+    padding: '10px 20px',
+    border: '1px solid #aaa',
+    borderRadius: '4px',
+  },
+  inputFocus: {
+    outline: 'none',
+  },
+  containerOpen: {
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0,
+  },
+  suggestionsContainer: {
+    top: '51px',
+    width: '100%',
+    margin: 0,
+    padding: 0,
+    listStyleType: 'none',
+    border: '1px solid #aaa',
+    backgroundColor: '#fff',
+    borderBottomLeftRadius: '4px',
+    borderBottomRightRadius: '4px',
+    zIndex: 2,
+  },
+  suggestion: {
+    cursor: 'pointer',
+    padding: '10px 20px',
+  },
+  suggestionFocused: {
+    backgroundColor: '#ddd',
+  },
+};
+
 function getSuggestionValue({ value }) {
   return value;
 }
@@ -57,14 +94,13 @@ class SearchBox extends React.Component {
       value,
       onChange: this.onChange,
       onKeyDown: cancelSearch,
-      className: 'form-control',
     };
     return (
       <g
         style={{ background: 'rgb(0,0,0' }}
       >
         <foreignObject
-          style={{ width: '80%', height: '20%', x: '10%', y: '40%' }}
+          style={{ width: '80%', height: '20%', x: '10%', y: '20%' }}
         >
           <Autosuggest
             suggestions={suggestions}
@@ -73,12 +109,7 @@ class SearchBox extends React.Component {
             renderSuggestion={renderSuggestion}
             inputProps={inputProps}
             onSuggestionSelected={this.onSuggestionSelected}
-            theme={{
-              container: {
-                border: '1px solid rgb(1, 1, 1)',
-                padding: '10px',
-              },
-            }}
+            theme={SEARCH_THEME}
             ref={(autosuggest) => {
               if (this.input || !autosuggest) {
                 return;
