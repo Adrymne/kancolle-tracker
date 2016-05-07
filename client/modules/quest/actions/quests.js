@@ -1,4 +1,5 @@
 import d3 from 'd3';
+import { save } from '../libs/local_data';
 
 export default {
   buildTree({ Store }, quests) {
@@ -35,5 +36,8 @@ export default {
       type: 'SET_QUEST_NODE_DIMENSIONS',
       dimensions: result,
     });
+  },
+  saveLocalQuestCompletion({ Store }) {
+    save(Store.getState().quests.completion);
   },
 };

@@ -25,9 +25,10 @@ class QuestTree extends React.Component {
     loadQuestNodeDimensions({ padding: QUEST_NODE_PADDING });
   }
   componentWillUnmount() {
-    const { onResize } = this.props;
+    const { onResize, saveQuestCompletion } = this.props;
     window.removeEventListener('resize', onResize);
     this.d3Select().on('.zoom', null);
+    saveQuestCompletion();
   }
 
   d3Select() {
@@ -61,6 +62,7 @@ QuestTree.propTypes = {
   quests: React.PropTypes.array.isRequired,
   edges: React.PropTypes.array.isRequired,
   loadQuestNodeDimensions: React.PropTypes.func.isRequired,
+  saveQuestCompletion: React.PropTypes.func.isRequired,
   keyMap: React.PropTypes.object.isRequired,
   keyHandlers: React.PropTypes.object.isRequired,
   isSearchActive: React.PropTypes.bool.isRequired,

@@ -31,6 +31,7 @@ export const depsMapper = (context, actions) => ({
   onResize: actions.svg.resize,
   onZoom: actions.svg.zoom,
   loadQuestNodeDimensions: actions.quests.loadQuestNodeDimensions,
+  saveQuestCompletion: actions.quests.saveLocalQuestCompletion,
   keyHandlers: {
     toggleCompletion: actions.quests.toggleCompletion,
     searchByDescription: actions.search.startDescriptionSearch,

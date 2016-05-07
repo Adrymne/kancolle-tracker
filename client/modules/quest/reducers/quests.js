@@ -47,6 +47,10 @@ function selectQuest({ selected }, { _id }) {
   return (selected === _id) ? null : _id;
 }
 
+function loadLocalData(state, { data }) {
+  return data;
+}
+
 function getInitialState() {
   return {
     selected: null,
@@ -65,6 +69,8 @@ export default {
         return { ...state, selected: selectQuest(state, action) };
       case 'TOGGLE_QUEST_COMPLETION':
         return { ...state, completion: toggleCompletion(state, action) };
+      case 'LOAD_LOCAL_COMPLETION_DATA':
+        return { ...state, completion: loadLocalData(state, action) };
       default:
         return state;
     }
