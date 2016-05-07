@@ -20,6 +20,7 @@ export const reduxComposer = ({ context }, onData) => {
   }
   onData(null, {
     ...state.svg,
+    centreOn: state.svg.centreOn,
     quests: state.quests.nodes,
     edges: state.quests.edges,
     keyMap: state.keybinds.quest,

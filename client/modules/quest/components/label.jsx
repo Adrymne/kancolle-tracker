@@ -25,11 +25,11 @@ class Label extends React.Component {
   }
 
   render() {
-    const { text, completion } = this.props;
+    const { text, completion, isSelected } = this.props;
     const { width, height } = this.state;
     return (
       <g transform={`translate(${-width / 2},${-height / 2})`}>
-        <text fillOpacity={completion === 'complete' ? 1e-9 : 1}>
+        <text fillOpacity={completion === 'complete' && !isSelected ? 1e-9 : 1}>
           <tspan space="preserve" dy="1em" x={1}>
             {text}
           </tspan>
@@ -41,6 +41,7 @@ class Label extends React.Component {
 Label.propTypes = {
   text: React.PropTypes.string,
   completion: React.PropTypes.string,
+  isSelected: React.PropTypes.bool,
 };
 
 export default Label;

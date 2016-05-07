@@ -14,13 +14,20 @@ const QUEST_NODE_PADDING = {
 };
 
 class QuestTree extends React.Component {
-  componentDidMount() {
-    const { onResize, onZoom, loadQuestNodeDimensions } = this.props;
-    window.addEventListener('resize', onResize);
+  constructor(props) {
+    super(props);
+    const { onZoom } = props;
 
     const zoom = d3.behavior.zoom()
         .scaleExtent([0.1, 1])
         .on('zoom', onZoom);
+    this.state = { zoom };
+  }
+  componentDidMount() {
+    const { onResize, loadQuestNodeDimensions } = this.props;
+    const { zoom } = this.state;
+    window.addEventListener('resize', onResize);
+
     this.d3Select().call(zoom);
     loadQuestNodeDimensions({ padding: QUEST_NODE_PADDING });
   }
@@ -36,7 +43,11 @@ class QuestTree extends React.Component {
   }
 
   render() {
-    const { width, height, quests, keyMap, keyHandlers, edges, isSearchActive } = this.props;
+    const { width, height, quests, keyMap, keyHandlers, edges, isSearchActive, centreOn } = this.props;
+    const { zoom } = this.state;
+    if (centreOn) {
+      zoom.scale(1).translate([centreOn.x, centreOn.y]).event(this.d3Select());
+    }
     return (
       <HotKeys focused attach={window} keyMap={keyMap} handlers={keyHandlers}>
       <svg

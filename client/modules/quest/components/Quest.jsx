@@ -29,7 +29,7 @@ class Quest extends React.Component {
           fill={questColour}
           fillOpacity={completion === 'inactive' ? 0.2 : 1}
         />
-        <Label text={_id} completion={completion} />
+        <Label text={_id} completion={completion} isSelected={isSelected} />
       </g>
     );
   }

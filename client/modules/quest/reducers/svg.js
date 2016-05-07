@@ -15,6 +15,12 @@ export default {
           width: action.width,
           height: action.height,
         };
+      case 'CENTRE_ON_QUEST': {
+        return {
+          ...state,
+          centreOn: action.location,
+        };
+      }
       default:
         return state;
     }
