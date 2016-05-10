@@ -4,6 +4,7 @@ import { mount } from 'react-mounter';
 import MainLayout from './components/main_layout';
 import ExpeditionCalculator from '../expedition/components/calculator';
 import QuestTree from '../quest/containers/quest_tree';
+import ScrappableList from '../scrappables/containers/scrappable_list';
 
 export default function (injectDeps, { FlowRouter }) {
   const context = injectDeps(MainLayout);
@@ -22,6 +23,15 @@ export default function (injectDeps, { FlowRouter }) {
     action() {
       mount(context, {
         content: () => (<ExpeditionCalculator />),
+      });
+    },
+  });
+
+  FlowRouter.route('/scrappables', {
+    name: 'scrappables',
+    action() {
+      mount(context, {
+        content: () => (<ScrappableList />),
       });
     },
   });
