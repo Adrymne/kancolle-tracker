@@ -48,7 +48,7 @@ function selectQuest({ selected }, { _id }) {
 }
 
 function loadLocalData(state, { data }) {
-  return data;
+  return data || state;
 }
 
 function getInitialState() {
