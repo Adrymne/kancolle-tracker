@@ -7,11 +7,14 @@ Various helper tools for Kantai Collection.
 ### Keyboard Shortcuts
 
 `mod+f` - Search by quest description.
+
 `mod+shift+f` - Search by quest reward.
+
 `space` - Toggle selected quest completion status.
+
 `esc` - Close the search dialog.
 
-`mod` is `ctrl` for Windows, `cmd` for OSX.
+(`mod` is `ctrl` for Windows, `cmd` for OSX)
 
 ### Known Issues
 
