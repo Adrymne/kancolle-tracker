@@ -2,6 +2,27 @@
 
 Various helper tools for Kantai Collection.
 
+## Quest Tracker
+
+### Keyboard Shortcuts
+
+`mod+f` - Search by quest description.
+`mod+shift+f` - Search by quest reward.
+`space` - Toggle selected quest completion status.
+`esc` - Close the search dialog.
+
+`mod` is `ctrl` for Windows, `cmd` for OSX.
+
+### Known Issues
+
+* Quest prereq list on the details pane can overflow.
+* Quest completion is reset upon server update.
+
+### TODO
+
+* Option to filter completed quests from search.
+* Better handling for repeatable quests (as prerequisites).
+
 ## Expedition Calculator
 
 ### Assumptions
@@ -10,7 +31,7 @@ Various assumptions have been made to simplify implementation, they are document
 
 #### Sparkle Cost
 
-Sparkling is assumed to be performed at 1-1, with no escorts (or throwaway shisp that are not refuelled). The relevant morale modifiers are:
+Sparkling is assumed to be performed at 1-1, with no escorts (or throwaway shisp that are not refuelled). It is assumed that you will S rank the first node and A rank the second. The relevant morale modifiers are:
 
 * MVP: +10
 * Flagship: +3
@@ -43,4 +64,14 @@ Assumed to be 19% chance per sparkled ship. It is also assumed that it is always
 
 **Drums:** It is known that Drums increase the GS chance for Expeditions that require them; for these expeditions you can reduce the number of sparkled ships. Recommended numbers can be found [here](https://www.reddit.com/r/kancolle/wiki/intermediate#wiki_increasing_resource_gain).
 
-**Consumable Output:** The calculator does not put any weight on consumables.
+**Consumable Output:** The calculator does not put any weight on consumables (buckets, development material, etc).
+
+**AFK Time:** The calculator assumes expeditions are sent out as soon as they return.
+
+## Scrappables
+
+Displays a list of ships not required by any incomplete quests (see Quest Tracker).
+
+This is **NOT** a list of ships that are recommended for scrapping.
+
+Also, be warned that new quests added in the future may require ships on the list.
