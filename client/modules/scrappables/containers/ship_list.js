@@ -9,6 +9,7 @@ export const shipComposer = ({ context, type = { $exists: false }, requiredShips
   if (Meteor.subscribe('ships.list').ready()) {
     const ships = _(Collections.Ships.find({ class: type }).fetch())
       .differenceWith(requiredShips, (ship, id) => ship._id === id)
+      .sortBy('name')
       .map((ship) => `${ship.name}${ship.jp ? ` (${ship.jp})` : ''}`)
       .value();
     onData(null, { ships });
