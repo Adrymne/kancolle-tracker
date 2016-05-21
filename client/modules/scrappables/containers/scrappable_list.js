@@ -1,5 +1,6 @@
 import ScrappableList from '../components/scrappable_list';
-import { useDeps, composeAll, compose } from 'mantra-core';
+import { useDeps, composeAll } from 'mantra-core';
+import { composeWithRedux } from '/lib/util';
 
 const TYPES = [
   { type: 'DD', text: 'DD' },
@@ -12,10 +13,19 @@ const TYPES = [
 ];
 
 export const composer = ({ context }, onData) => {
-  onData(null, { types: TYPES });
+  const { Store } = context();
+  onData(null, {
+    types: TYPES,
+    mode: Store.getState().scrappables.mode,
+  });
 };
 
+export const depsMapper = (context, actions) => ({
+  onTabSelect: actions.scrappables.setMode,
+  context: () => context,
+});
+
 export default composeAll(
-  compose(composer),
-  useDeps()
+  composeWithRedux(composer),
+  useDeps(depsMapper)
 )(ScrappableList);
