@@ -4,15 +4,22 @@ import { composeWithRedux } from '/lib/util';
 import _ from 'lodash';
 
 // get ships not required by incomplete quests of specified class
-export const shipComposer = ({ context, type = { $exists: false }, requiredShips }, onData) => {
+export const shipComposer = ({ context, type = { $exists: false }, requiredShips, mode }, onData) => {
   const { Meteor, Collections } = context();
-  if (Meteor.subscribe('ships.list').ready()) {
-    const ships = _(Collections.Ships.find({ class: type }).fetch())
-      .differenceWith(requiredShips, (ship, id) => ship._id === id)
-      .map((ship) => `${ship.name}${ship.jp ? ` (${ship.jp})` : ''}`)
-      .value();
-    onData(null, { ships });
+  if (!Meteor.subscribe('ships.list').ready()) {
+    return;
   }
+  let ships = Collections.Ships.find({ class: type }).fetch();
+  if (mode === 'required') {
+    ships = _.intersectionWith(ships, requiredShips, (ship, id) => ship._id === id);
+  } else {
+    ships = _.differenceWith(ships, requiredShips, (ship, id) => ship._id === id);
+  }
+  ships = _(ships)
+    .sortBy('name')
+    .map((ship) => `${ship.name}${ship.jp ? ` (${ship.jp})` : ''}`)
+    .value();
+  onData(null, { ships });
 };
 
 // get ships required by incomplete quests
@@ -26,7 +33,7 @@ export const completionComposer = ({ context, quests }, onData) => {
     .reduce((list, quest) => list.concat(quest.ships), [])
     .uniq()
     .value();
-  onData(null, { requiredShips });
+  onData(null, { requiredShips, mode: state.scrappables.mode });
 };
 
 // get quests from collection
