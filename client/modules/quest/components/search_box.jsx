@@ -99,7 +99,7 @@ class SearchBox extends React.Component {
     };
     return (
       <g
-        style={{ background: 'rgb(0,0,0' }}
+        style={{ background: 'rgb(0,0,0)' }}
       >
         <foreignObject
           style={{ width: '80%', height: '20%', x: '10%', y: '20%' }}

@@ -5,7 +5,10 @@ import { composeWithRedux } from '/lib/util';
 export const collectionComposer = ({ context, actions }, onData) => {
   const { Meteor, Collections } = context();
   const { quests: { buildTree: build } } = actions();
-  if (Meteor.subscribe('quests.list').ready()) {
+  const questSub = Meteor.subscribe('quests.list');
+  const itemSub = Meteor.subscribe('items.list');
+  const shipSub = Meteor.subscribe('ships.list');
+  if (questSub.ready() && itemSub.ready() && shipSub.ready()) {
     const quests = Collections.Quests.find().fetch();
     build(quests);
     onData(null, {});
