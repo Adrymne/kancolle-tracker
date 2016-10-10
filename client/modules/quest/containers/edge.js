@@ -50,8 +50,8 @@ function buildPath({ state }, { points, v, w }) {
   ]);
 }
 
-function edgeState({ state }, { v: head }) {
-  if (state.quests.selected === head) {
+function edgeState({ state }, { v: head, w: tail }) {
+  if (state.quests.selected === head || state.quests.selected === tail) {
     return 'selected';
   } else if (state.quests.completion[head] === 'complete') {
     return 'complete';
