@@ -7,11 +7,11 @@ export const reduxComposer = ({ context }, onData) => {
   const { Store } = context();
   const { screws: { quests } } = Store.getState();
   const repeatableQuests = {};
-  _.each(quests, ({ isActive, type }, id) => {
+  _.each(quests, ({ isActive, type, screws, description }, id) => {
     if (!repeatableQuests[type]) {
       repeatableQuests[type] = [];
     }
-    repeatableQuests[type].push({ id, isChecked: isActive });
+    repeatableQuests[type].push({ id, isChecked: isActive, screws, description });
   });
   onData(null, { repeatableQuests });
 };

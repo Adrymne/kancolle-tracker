@@ -6,6 +6,7 @@ const ScrewMedals = ({ medals, onChange }) => (
       <h4>Medals <small>(per month)</small></h4>
     </div>
     <input type="number" value={medals} onChange={(e) => onChange(e.target.value)} />
+    {' x 4'}
   </div>
 );
 ScrewMedals.propTypes = {
