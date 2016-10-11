@@ -5,6 +5,7 @@ import MainLayout from './components/main_layout';
 import ExpeditionCalculator from '../expedition/components/calculator';
 import QuestTree from '../quest/containers/quest_tree';
 import ScrappableList from '../scrappables/containers/scrappable_list';
+import ScrewCalculator from '../screws/components/calculator';
 
 export default function (injectDeps, { FlowRouter }) {
   const context = injectDeps(MainLayout);
@@ -32,6 +33,15 @@ export default function (injectDeps, { FlowRouter }) {
     action() {
       mount(context, {
         content: () => (<ScrappableList />),
+      });
+    },
+  });
+
+  FlowRouter.route('/screw-calculator', {
+    name: 'screwCalculator',
+    action() {
+      mount(context, {
+        content: () => (<ScrewCalculator />),
       });
     },
   });
