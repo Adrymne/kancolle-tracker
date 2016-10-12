@@ -11,7 +11,7 @@ const ScrewQuests = ({ repeatableQuests, onChange }) => (
       <div key={type}>
         <h5><p className="text-capitalize">{type}</p></h5>
         {_.map(quests, ({ id, isChecked, screws, description }, qIndex) => {
-          const tooltip = (<Tooltip>{description}</Tooltip>);
+          const tooltip = (<Tooltip id={`tooltip-screw-quest-${id}`}>{description}</Tooltip>);
           return (
             <OverlayTrigger placement="top" overlay={tooltip}>
               <label className="checkbox-inline" key={qIndex}>

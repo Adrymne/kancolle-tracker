@@ -1,0 +1,13 @@
+// http://stackoverflow.com/questions/26147186/how-to-restrict-width-of-bootstrap-3-dropdown-menu-in-navbar
+
+.full-width.dropdown {
+    position: static;
+}
+.full-width.dropdown > .dropdown-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.full-width.dropdown > .dropdown-menu > li > a {
+   white-space: normal; 
+}

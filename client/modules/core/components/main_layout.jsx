@@ -1,11 +1,12 @@
 import React from 'react';
+import { HotKeys } from 'react-hotkeys';
 import { Grid, Row } from 'react-bootstrap';
 import DocumentTitle from 'react-document-title';
 import Navigation from './navigation';
+import keyMap from '../configs/hotkeys';
 
-// TODO: Nav bar
 const Layout = ({ content = () => null }) => (
-  <div>
+  <HotKeys keyMap={keyMap}>
     <DocumentTitle title="Kancolle Tracker" />
     <Navigation />
     <Grid>
@@ -13,7 +14,7 @@ const Layout = ({ content = () => null }) => (
         {content()}
       </Row>
     </Grid>
-  </div>
+  </HotKeys>
 );
 Layout.propTypes = {
   content: React.PropTypes.func,

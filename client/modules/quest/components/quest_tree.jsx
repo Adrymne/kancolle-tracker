@@ -2,7 +2,7 @@ import React from 'react';
 import Quest from '../containers/quest';
 import Edge from '../containers/edge';
 import QuestDetails from '../containers/details';
-import SearchBox from '../containers/search_box';
+import Search from '../containers/search';
 import { HotKeys } from 'react-hotkeys';
 import d3 from 'd3';
 
@@ -43,25 +43,27 @@ class QuestTree extends React.Component {
   }
 
   render() {
-    const { width, height, quests, keyMap, keyHandlers, edges, isSearchActive, centreOn } = this.props;
+    const { width, height, quests, keyHandlers, edges, centreOn } = this.props;
     const { zoom } = this.state;
     if (centreOn) {
       zoom.scale(1).translate([centreOn.x, centreOn.y]).event(this.d3Select());
     }
     return (
-      <HotKeys focused attach={window} keyMap={keyMap} handlers={keyHandlers}>
-      <svg
-        width={width} height={height}
-        style={{ border: '1px solid rgb(170,170,170)' }}
-      >
-        <g className="quest-tree">
-          {edges.map((edge, index) => <Edge key={index} edge={edge} />)}
-          {quests.map(quest => <Quest key={quest._id} {...quest} />)}
-        </g>
-        <QuestDetails />
-        {isSearchActive ? <SearchBox /> : null}
-      </svg>
+      <div>
+      <HotKeys focused attach={window} handlers={keyHandlers}>
+        <svg
+          width={width} height={height}
+          style={{ border: '1px solid rgb(170,170,170)' }}
+        >
+          <g className="quest-tree">
+            {edges.map((edge, index) => <Edge key={index} edge={edge} />)}
+            {quests.map(quest => <Quest key={quest._id} {...quest} />)}
+          </g>
+          <QuestDetails />
+        </svg>
       </HotKeys>
+      <Search />
+      </div>
     );
   }
 }
@@ -74,9 +76,7 @@ QuestTree.propTypes = {
   edges: React.PropTypes.array.isRequired,
   loadQuestNodeDimensions: React.PropTypes.func.isRequired,
   saveQuestCompletion: React.PropTypes.func.isRequired,
-  keyMap: React.PropTypes.object.isRequired,
   keyHandlers: React.PropTypes.object.isRequired,
-  isSearchActive: React.PropTypes.bool.isRequired,
 };
 
 export default QuestTree;

@@ -26,8 +26,6 @@ export const reduxComposer = ({ context }, onData) => {
     centreOn: state.svg.centreOn,
     quests: state.quests.nodes,
     edges: state.quests.edges,
-    keyMap: state.keybinds.quest,
-    isSearchActive: !! state.search.mode,
   });
 };
 
@@ -38,8 +36,6 @@ export const depsMapper = (context, actions) => ({
   saveQuestCompletion: actions.quests.saveLocalQuestCompletion,
   keyHandlers: {
     toggleCompletion: actions.quests.toggleCompletion,
-    searchByDescription: actions.search.startDescriptionSearch,
-    searchByRewards: actions.search.startRewardsSearch,
   },
   actions: () => actions,
   context: () => context,

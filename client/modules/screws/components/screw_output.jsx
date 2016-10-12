@@ -2,7 +2,7 @@ import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const tooltip = (
-<Tooltip>
+<Tooltip id="tooltip-screw-count">
   This total does not count rewards in the current reset;
   add active quests' rewards to the base count.
 </Tooltip>
