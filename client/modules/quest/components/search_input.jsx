@@ -36,6 +36,14 @@ class SearchInput extends React.Component {
     hide();
   }
 
+  renderItem({ label, status }) {
+    return (
+      <a href="#" className={status === 'complete' ? 'list-group-item-success' : ''}>
+        {label}
+      </a>
+    );
+  }
+
   render() {
     const { value, suggestions } = this.state;
     const inputProps = {
@@ -49,7 +57,7 @@ class SearchInput extends React.Component {
         onSuggestionsFetchRequested={this.updateSuggestions}
         onSuggestionsClearRequested={() => this.setState({ suggestions: [] })}
         getSuggestionValue={({ value: val }) => val}
-        renderSuggestion={({ label }) => (<a href="#">{label}</a>)}
+        renderSuggestion={this.renderItem}
         inputProps={inputProps}
         onSuggestionSelected={this.selectItem}
         theme={SEARCH_THEME}
