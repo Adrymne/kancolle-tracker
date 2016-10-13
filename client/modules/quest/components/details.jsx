@@ -39,7 +39,7 @@ const Details = (selectedQuest) => {
             <h4><small>{jp}</small></h4>
             <p>{description}</p>
             <QuestRewards rewards={rewards} />
-            <PrerequisiteList quests={requires} />
+            <PrerequisiteList prereqs={requires} />
           </Col></Row>
         </Grid>
       </foreignObject>
