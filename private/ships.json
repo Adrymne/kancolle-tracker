@@ -1,0 +1,1024 @@
+[{
+	"_id": 1.0,
+	"name": "Nagato",
+	"jp": "長門",
+	"class": "BB"
+},
+{
+	"_id": 2.0,
+	"name": "Mutsu",
+	"jp": "陸奥",
+	"class": "BB"
+},
+{
+	"_id": 3.0,
+	"name": "Ise",
+	"jp": "伊勢",
+	"class": "BB"
+},
+{
+	"_id": 4.0,
+	"name": "Hyuuga",
+	"jp": "日向",
+	"class": "BB"
+},
+{
+	"_id": 5.0,
+	"name": "Yukikaze",
+	"jp": "雪風",
+	"class": "DD"
+},
+{
+	"_id": 6.0,
+	"name": "Akagi",
+	"jp": "赤城",
+	"class": "CV"
+},
+{
+	"_id": 7.0,
+	"name": "Kaga",
+	"jp": "加賀",
+	"class": "CV"
+},
+{
+	"_id": 8.0,
+	"name": "Souryuu",
+	"jp": "蒼龍",
+	"class": "CV"
+},
+{
+	"_id": 9.0,
+	"name": "Hiryuu",
+	"jp": "飛龍",
+	"class": "CV"
+},
+{
+	"_id": 10.0,
+	"name": "Shimakaze",
+	"jp": "島風",
+	"class": "DD"
+},
+{
+	"_id": 11.0,
+	"name": "Fubuki",
+	"jp": "吹雪",
+	"class": "DD"
+},
+{
+	"_id": 12.0,
+	"name": "Shirayuki",
+	"jp": "白雪",
+	"class": "DD"
+},
+{
+	"_id": 13.0,
+	"name": "Hatsuyuki",
+	"jp": "初雪",
+	"class": "DD"
+},
+{
+	"_id": 14.0,
+	"name": "Miyuki",
+	"jp": "深雪",
+	"class": "DD"
+},
+{
+	"_id": 15.0,
+	"name": "Murakumo",
+	"jp": "叢雲",
+	"class": "DD"
+},
+{
+	"_id": 16.0,
+	"name": "Isonami",
+	"jp": "磯波",
+	"class": "DD"
+},
+{
+	"_id": 17.0,
+	"name": "Ayanami",
+	"jp": "綾波",
+	"class": "DD"
+},
+{
+	"_id": 18.0,
+	"name": "Shikinami",
+	"class": "DD",
+	"jp": "敷波"
+},
+{
+	"_id": 19.0,
+	"name": "Ooi",
+	"class": "CL",
+	"jp": "大井"
+},
+{
+	"_id": 20.0,
+	"name": "Kitakami",
+	"class": "CL",
+	"jp": "北上"
+},
+{
+	"_id": 21.0,
+	"name": "Kongou",
+	"jp": "金剛",
+	"class": "BB"
+},
+{
+	"_id": 22.0,
+	"name": "Hiei",
+	"jp": "比叡",
+	"class": "BB"
+},
+{
+	"_id": 23.0,
+	"name": "Haruna",
+	"jp": "榛名",
+	"class": "BB"
+},
+{
+	"_id": 24.0,
+	"name": "Kirishima",
+	"jp": "霧島",
+	"class": "BB"
+},
+{
+	"_id": 25.0,
+	"name": "Houshou",
+	"jp": "鳳翔",
+	"class": "CV"
+},
+{
+	"_id": 26.0,
+	"name": "Fusou",
+	"jp": "扶桑",
+	"class": "BB"
+},
+{
+	"_id": 27.0,
+	"name": "Yamashiro",
+	"jp": "山城",
+	"class": "BB"
+},
+{
+	"_id": 28.0,
+	"name": "Tenryuu",
+	"jp": "天龍",
+	"class": "CL"
+},
+{
+	"_id": 29.0,
+	"name": "Tatsuta",
+	"jp": "龍田",
+	"class": "CL"
+},
+{
+	"_id": 30.0,
+	"name": "Ryuujou",
+	"jp": "龍驤",
+	"class": "CV"
+},
+{
+	"_id": 31.0,
+	"name": "Mutsuki",
+	"jp": "睦月",
+	"class": "DD"
+},
+{
+	"_id": 32.0,
+	"name": "Kisaragi",
+	"jp": "如月",
+	"class": "DD"
+},
+{
+	"_id": 33.0,
+	"name": "Satsuki",
+	"jp": "皐月",
+	"class": "DD"
+},
+{
+	"_id": 34.0,
+	"name": "Fumizuki",
+	"jp": "文月",
+	"class": "DD"
+},
+{
+	"_id": 35.0,
+	"name": "Nagatsuki",
+	"jp": "長月",
+	"class": "DD"
+},
+{
+	"_id": 36.0,
+	"name": "Kikuzuki",
+	"jp": "菊月",
+	"class": "DD"
+},
+{
+	"_id": 37.0,
+	"name": "Mikazuki",
+	"jp": "三日月",
+	"class": "DD"
+},
+{
+	"_id": 38.0,
+	"name": "Mochizuki",
+	"jp": "望月",
+	"class": "DD"
+},
+{
+	"_id": 39.0,
+	"name": "Kuma",
+	"jp": "球磨",
+	"class": "CL"
+},
+{
+	"_id": 40.0,
+	"name": "Tama",
+	"jp": "多摩",
+	"class": "CL"
+},
+{
+	"_id": 41.0,
+	"name": "Kiso",
+	"jp": "木曾",
+	"class": "CL"
+},
+{
+	"_id": 42.0,
+	"name": "Nagara",
+	"jp": "長良",
+	"class": "CL"
+},
+{
+	"_id": 43.0,
+	"name": "Isuzu",
+	"jp": "五十鈴",
+	"class": "CL"
+},
+{
+	"_id": 44.0,
+	"name": "Natori",
+	"jp": "名取",
+	"class": "CL"
+},
+{
+	"_id": 45.0,
+	"name": "Yura",
+	"jp": "由良",
+	"class": "CL"
+},
+{
+	"_id": 46.0,
+	"name": "Sendai",
+	"jp": "川内",
+	"class": "CL"
+},
+{
+	"_id": 47.0,
+	"name": "Jintsuu",
+	"jp": "神通",
+	"class": "CL"
+},
+{
+	"_id": 48.0,
+	"name": "Naka",
+	"jp": "那珂",
+	"class": "CL"
+},
+{
+	"_id": 49.0,
+	"name": "Chitose",
+	"jp": "千歳"
+},
+{
+	"_id": 50.0,
+	"name": "Chiyoda",
+	"jp": "千代田"
+},
+{
+	"_id": 51.0,
+	"name": "Mogami",
+	"jp": "最上",
+	"class": "CA"
+},
+{
+	"_id": 52.0,
+	"name": "Furutaka",
+	"jp": "古鷹",
+	"class": "CA"
+},
+{
+	"_id": 53.0,
+	"name": "Kako",
+	"jp": "加古",
+	"class": "CA"
+},
+{
+	"_id": 54.0,
+	"name": "Aoba",
+	"jp": "青葉",
+	"class": "CA"
+},
+{
+	"_id": 55.0,
+	"name": "Myoukou",
+	"jp": "妙高",
+	"class": "CA"
+},
+{
+	"_id": 56.0,
+	"name": "Nachi",
+	"jp": "那智",
+	"class": "CA"
+},
+{
+	"_id": 57.0,
+	"name": "Ashigara",
+	"jp": "足柄",
+	"class": "CA"
+},
+{
+	"_id": 58.0,
+	"name": "Haguro",
+	"jp": "羽黒",
+	"class": "CA"
+},
+{
+	"_id": 59.0,
+	"name": "Takao",
+	"jp": "高雄",
+	"class": "CA"
+},
+{
+	"_id": 60.0,
+	"name": "Atago",
+	"jp": "愛宕",
+	"class": "CA"
+},
+{
+	"_id": 61.0,
+	"name": "Maya",
+	"jp": "摩耶",
+	"class": "CA"
+},
+{
+	"_id": 62.0,
+	"name": "Choukai",
+	"jp": "鳥海",
+	"class": "CA"
+},
+{
+	"_id": 63.0,
+	"name": "Tone",
+	"jp": "利根",
+	"class": "CA"
+},
+{
+	"_id": 64.0,
+	"name": "Chikuma",
+	"jp": "筑摩",
+	"class": "CA"
+},
+{
+	"_id": 65.0,
+	"name": "Hiyou",
+	"jp": "飛鷹",
+	"class": "CV"
+},
+{
+	"_id": 66.0,
+	"name": "Jun'you",
+	"jp": "隼鷹",
+	"class": "CV"
+},
+{
+	"_id": 67.0,
+	"name": "Oboro",
+	"jp": "朧",
+	"class": "DD"
+},
+{
+	"_id": 68.0,
+	"name": "Akebono",
+	"jp": "曙",
+	"class": "DD"
+},
+{
+	"_id": 69.0,
+	"name": "Sazanami",
+	"jp": "漣",
+	"class": "DD"
+},
+{
+	"_id": 70.0,
+	"name": "Ushio",
+	"jp": "潮",
+	"class": "DD"
+},
+{
+	"_id": 71.0,
+	"name": "Akatsuki",
+	"jp": "暁",
+	"class": "DD"
+},
+{
+	"_id": 72.0,
+	"name": "Hibiki",
+	"jp": "響",
+	"class": "DD"
+},
+{
+	"_id": 73.0,
+	"name": "Ikazuchi",
+	"jp": "雷",
+	"class": "DD"
+},
+{
+	"_id": 74.0,
+	"name": "Inazuma",
+	"jp": "電",
+	"class": "DD"
+},
+{
+	"_id": 75.0,
+	"name": "Hatsuharu",
+	"jp": "初春",
+	"class": "DD"
+},
+{
+	"_id": 76.0,
+	"name": "Nenohi",
+	"jp": "子日",
+	"class": "DD"
+},
+{
+	"_id": 77.0,
+	"name": "Wakaba",
+	"jp": "若葉",
+	"class": "DD"
+},
+{
+	"_id": 78.0,
+	"name": "Hatsushimo",
+	"jp": "初霜",
+	"class": "DD"
+},
+{
+	"_id": 79.0,
+	"name": "Shiratsuyu",
+	"jp": "白露",
+	"class": "DD"
+},
+{
+	"_id": 80.0,
+	"name": "Shigure",
+	"jp": "時雨",
+	"class": "DD"
+},
+{
+	"_id": 81.0,
+	"name": "Murasame",
+	"jp": "村雨",
+	"class": "DD"
+},
+{
+	"_id": 82.0,
+	"name": "Yuudachi",
+	"jp": "夕立",
+	"class": "DD"
+},
+{
+	"_id": 83.0,
+	"name": "Samidare",
+	"jp": "五月雨",
+	"class": "DD"
+},
+{
+	"_id": 84.0,
+	"name": "Suzukaze",
+	"jp": "涼風",
+	"class": "DD"
+},
+{
+	"_id": 85.0,
+	"name": "Asashio",
+	"jp": "朝潮",
+	"class": "DD"
+},
+{
+	"_id": 86.0,
+	"name": "Ooshio",
+	"jp": "大潮",
+	"class": "DD"
+},
+{
+	"_id": 87.0,
+	"name": "Michishio",
+	"jp": "満潮",
+	"class": "DD"
+},
+{
+	"_id": 88.0,
+	"name": "Arashio",
+	"jp": "荒潮",
+	"class": "DD"
+},
+{
+	"_id": 89.0,
+	"name": "Arare",
+	"jp": "霰",
+	"class": "DD"
+},
+{
+	"_id": 90.0,
+	"name": "Kasumi",
+	"jp": "霞",
+	"class": "DD"
+},
+{
+	"_id": 91.0,
+	"name": "Kagerou",
+	"jp": "陽炎",
+	"class": "DD"
+},
+{
+	"_id": 92.0,
+	"name": "Shiranui",
+	"jp": "不知火",
+	"class": "DD"
+},
+{
+	"_id": 93.0,
+	"name": "Kuroshio",
+	"jp": "黒潮",
+	"class": "DD"
+},
+{
+	"_id": 94.0,
+	"name": "Shouhou",
+	"jp": "祥鳳",
+	"class": "CV"
+},
+{
+	"_id": 106.0,
+	"name": "Shoukaku",
+	"jp": "翔鶴",
+	"class": "CV"
+},
+{
+	"_id": 107.0,
+	"name": "Zuikaku",
+	"jp": "瑞鶴",
+	"class": "CV"
+},
+{
+	"_id": 109.0,
+	"name": "Kinu",
+	"jp": "鬼怒",
+	"class": "CL"
+},
+{
+	"_id": 110.0,
+	"name": "Abukuma",
+	"jp": "阿武隈",
+	"class": "CL"
+},
+{
+	"_id": 111.0,
+	"name": "Yuubari",
+	"jp": "夕張",
+	"class": "CL"
+},
+{
+	"_id": 112.0,
+	"name": "Zuihou",
+	"jp": "瑞鳳",
+	"class": "CV"
+},
+{
+	"_id": 116.0,
+	"name": "Mikuma",
+	"jp": "三隈",
+	"class": "CA"
+},
+{
+	"_id": 118.0,
+	"name": "Hatsukaze",
+	"jp": "初風",
+	"class": "DD"
+},
+{
+	"_id": 119.0,
+	"name": "Maikaze",
+	"jp": "舞風",
+	"class": "DD"
+},
+{
+	"_id": 120.0,
+	"name": "Kinugasa",
+	"jp": "衣笠",
+	"class": "CA"
+},
+{
+	"_id": 123.0,
+	"name": "I-19",
+	"class": "SS"
+},
+{
+	"_id": 124.0,
+	"name": "Suzuya",
+	"jp": "鈴谷",
+	"class": "CA"
+},
+{
+	"_id": 125.0,
+	"name": "Kumano",
+	"jp": "熊野",
+	"class": "CA"
+},
+{
+	"_id": 126.0,
+	"name": "I-168",
+	"class": "SS"
+},
+{
+	"_id": 127.0,
+	"name": "I-58",
+	"class": "SS"
+},
+{
+	"_id": 128.0,
+	"name": "I-8",
+	"class": "SS"
+},
+{
+	"_id": 131.0,
+	"name": "Yamato",
+	"jp": "大和",
+	"class": "BB"
+},
+{
+	"_id": 132.0,
+	"name": "Akigumo",
+	"jp": "秋雲",
+	"class": "DD"
+},
+{
+	"_id": 133.0,
+	"name": "Yuugumo",
+	"jp": "夕雲",
+	"class": "DD"
+},
+{
+	"_id": 134.0,
+	"name": "Makigumo",
+	"jp": "巻雲",
+	"class": "DD"
+},
+{
+	"_id": 135.0,
+	"name": "Naganami",
+	"jp": "長波",
+	"class": "DD"
+},
+{
+	"_id": 137.0,
+	"name": "Agano",
+	"jp": "阿賀野",
+	"class": "CL"
+},
+{
+	"_id": 138.0,
+	"name": "Noshiro",
+	"jp": "能代",
+	"class": "CL"
+},
+{
+	"_id": 139.0,
+	"name": "Yahagi",
+	"jp": "矢矧",
+	"class": "CL"
+},
+{
+	"_id": 140.0,
+	"name": "Sakawa",
+	"jp": "酒匂",
+	"class": "CL"
+},
+{
+	"_id": 143.0,
+	"name": "Musashi",
+	"jp": "武蔵",
+	"class": "BB"
+},
+{
+	"_id": 153.0,
+	"name": "Taihou",
+	"jp": "大鳳",
+	"class": "CV"
+},
+{
+	"_id": 154.0,
+	"name": "Katori",
+	"jp": "香取"
+},
+{
+	"_id": 155.0,
+	"name": "I-401",
+	"class": "SS"
+},
+{
+	"_id": 161.0,
+	"name": "Akitsu Maru",
+	"jp": "あきつ丸"
+},
+{
+	"_id": 163.0,
+	"name": "Maruyu",
+	"jp": "まるゆ",
+	"class": "SS"
+},
+{
+	"_id": 164.0,
+	"name": "Yayoi",
+	"jp": "弥生",
+	"class": "DD"
+},
+{
+	"_id": 165.0,
+	"name": "Uzuki",
+	"jp": "卯月",
+	"class": "DD"
+},
+{
+	"_id": 167.0,
+	"name": "Isokaze",
+	"jp": "磯風",
+	"class": "DD"
+},
+{
+	"_id": 168.0,
+	"name": "Urakaze",
+	"jp": "浦風",
+	"class": "DD"
+},
+{
+	"_id": 169.0,
+	"name": "Tanikaze",
+	"jp": "谷風",
+	"class": "DD"
+},
+{
+	"_id": 170.0,
+	"name": "Hamakaze",
+	"jp": "浜風",
+	"class": "DD"
+},
+{
+	"_id": 171.0,
+	"name": "Bismark",
+	"class": "BB"
+},
+{
+	"_id": 174.0,
+	"name": "Z1",
+	"class": "DD"
+},
+{
+	"_id": 175.0,
+	"name": "Z3",
+	"class": "DD"
+},
+{
+	"_id": 176.0,
+	"name": "Prinz Eugen",
+	"class": "CA"
+},
+{
+	"_id": 181.0,
+	"name": "Amatsukaze",
+	"jp": "天津風",
+	"class": "DD"
+},
+{
+	"_id": 182.0,
+	"name": "Akashi",
+	"jp": "明石"
+},
+{
+	"_id": 183.0,
+	"name": "Ooyodo",
+	"jp": "大淀",
+	"class": "CL"
+},
+{
+	"_id": 184.0,
+	"name": "Taigei",
+	"jp": "大鯨"
+},
+{
+	"_id": 186.0,
+	"name": "Tokitsukaze",
+	"jp": "時津風",
+	"class": "DD"
+},
+{
+	"_id": 201.0,
+	"name": "Unryuu",
+	"class": "CV",
+	"jp": "雲龍"
+},
+{
+	"_id": 202.0,
+	"name": "Amagi",
+	"class": "CV",
+	"jp": "天城"
+},
+{
+	"_id": 203.0,
+	"name": "Katsuragi",
+	"jp": "葛城",
+	"class": "CV"
+},
+{
+	"_id": 205.0,
+	"name": "Harusame",
+	"jp": "春雨",
+	"class": "DD"
+},
+{
+	"_id": 209.0,
+	"name": "Hayashimo",
+	"jp": "早霜",
+	"class": "DD"
+},
+{
+	"_id": 210.0,
+	"name": "Kiyoshimo",
+	"jp": "清霜",
+	"class": "DD"
+},
+{
+	"_id": 213.0,
+	"name": "Asagumo",
+	"jp": "朝雲",
+	"class": "DD"
+},
+{
+	"_id": 214.0,
+	"name": "Yamagumo",
+	"jp": "山雲",
+	"class": "DD"
+},
+{
+	"_id": 215.0,
+	"name": "Nowaki",
+	"jp": "野分",
+	"class": "DD"
+},
+{
+	"_id": 221.0,
+	"name": "Akuzuki",
+	"jp": "秋月",
+	"class": "DD"
+},
+{
+	"_id": 222.0,
+	"name": "Teruzuki",
+	"jp": "照月",
+	"class": "DD"
+},
+{
+	"_id": 223.0,
+	"name": "Hatsuzuki",
+	"jp": "初月",
+	"class": "DD"
+},
+{
+	"_id": 224.0,
+	"name": "Takanami",
+	"jp": "高波",
+	"class": "DD"
+},
+{
+	"_id": 225.0,
+	"name": "Asashimo",
+	"jp": "朝霜",
+	"class": "DD"
+},
+{
+	"_id": 231.0,
+	"name": "U-511",
+	"class": "SS"
+},
+{
+	"_id": 232.0,
+	"name": "Graf Zeppelin",
+	"class": "CV"
+},
+{
+	"_id": 240.0,
+	"name": "Iowa",
+	"class": "BB"
+},
+{
+	"_id": 241.0,
+	"name": "Littorio",
+	"class": "BB"
+},
+{
+	"_id": 242.0,
+	"name": "Roma",
+	"class": "BB"
+},
+{
+	"_id": 243.0,
+	"name": "Libeccio",
+	"class": "DD"
+},
+{
+	"_id": 245.0,
+	"name": "Akitsushima",
+	"jp": "秋津洲"
+},
+{
+	"_id": 248.0,
+	"name": "Zara",
+	"class": "CA"
+},
+{
+	"_id": 249.0,
+	"name": "Pola",
+	"class": "CA"
+},
+{
+	"_id": 251.0,
+	"name": "Mizuho",
+	"jp": "瑞穂"
+},
+{
+	"_id": 252.0,
+	"name": "Okinami",
+	"jp": "沖波",
+	"class": "DD"
+},
+{
+	"_id": 253.0,
+	"name": "Kazagumo",
+	"jp": "風雲",
+	"class": "DD"
+},
+{
+	"_id": 254.0,
+	"name": "Arashi",
+	"jp": "嵐",
+	"class": "DD"
+},
+{
+	"_id": 255.0,
+	"name": "Hagikaze",
+	"jp": "萩風",
+	"class": "DD"
+},
+{
+	"_id": 256.0,
+	"name": "Oyashio",
+	"jp": "親潮",
+	"class": "DD"
+},
+{
+	"_id": 258.0,
+	"name": "Umikaze",
+	"jp": "海風",
+	"class": "DD"
+},
+{
+	"_id": 259.0,
+	"name": "Kawakaze",
+	"jp": "江風",
+	"class": "DD"
+},
+{
+	"_id": 260.0,
+	"name": "Hayasui",
+	"jp": "速吸"
+},
+{
+	"_id": 265.0,
+	"name": "Kashima",
+	"jp": "鹿島"
+},
+{
+	"_id": 271.0,
+	"name": "Kamikaze",
+	"jp": "神風",
+	"class": "DD"
+},
+{
+	"_id": 273.0,
+	"name": "Harukaze",
+	"jp": "春風",
+	"class": "DD"
+}]
+

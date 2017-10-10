@@ -1,0 +1,3646 @@
+[{
+	"_id": "A1",
+	"jp": "はじめての「編成」！",
+	"name": "The First Organization",
+	"description": "Have two ships in your main fleet.",
+	"rewards": [
+		{
+			"ship": 12.0
+		}
+	]
+},
+{
+	"_id": "A10",
+	"name": "Organize the 6th Destroyer Division",
+	"jp": "「第六駆逐隊」を編成せよ！",
+	"description": "Have ONLY Akatsuki, Hibiki, Ikazuchi and Inazuma in your Second Fleet.",
+	"ships": [
+		71.0,
+		72.0,
+		73.0,
+		74.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A9"
+	]
+},
+{
+	"_id": "A11",
+	"name": "Organize a Carrier Task Force in your Second Fleet",
+	"jp": "第2艦隊で空母機動部隊を編成せよ！",
+	"description": "Have a CV(L) and 3 DDs in your Second Fleet.",
+	"rewards": [],
+	"requires": [
+		"B3"
+	]
+},
+{
+	"_id": "A12",
+	"name": "Organize a Carrier Task Force",
+	"jp": "「空母機動部隊」を編成せよ！",
+	"description": "Have a CV(L) and 3 DDs in your Main Fleet.",
+	"reward": [
+		{
+			"type": "item",
+			"name": "Development Material"
+		}
+	],
+	"rewards": []
+},
+{
+	"_id": "A13",
+	"name": "Organize the Main Fleet with a Battleship and Heavy Cruisers",
+	"jp": "戦艦と重巡による主力艦隊を編成せよ！",
+	"description": "Have a BB and 2 CAs in your Main Fleet (BBVs don't count).",
+	"rewards": [],
+	"requires": [
+		"A12"
+	]
+},
+{
+	"_id": "A14",
+	"name": "Organize the 3 Sendai class Light Cruisers",
+	"jp": "「川内」型軽巡姉妹の全3艦を編成せよ！",
+	"description": "Have Sendai, Jintsuu and Naka in your Main Fleet.",
+	"ships": [
+		46.0,
+		47.0,
+		48.0
+	],
+	"rewards": [
+		{
+			"name": "Third Fleet"
+		}
+	],
+	"requires": [
+		"A7"
+	]
+},
+{
+	"_id": "A15",
+	"name": "Organize the 4 Myoukou class Heavy Cruisers",
+	"jp": "「妙高」型重巡姉妹の全4隻を編成せよ！",
+	"description": "Have Myoukou, Nachi, Ashigara and Haguro in your Main Fleet.",
+	"ships": [
+		55.0,
+		56.0,
+		57.0,
+		58.0
+	],
+	"rewards": [],
+	"requires": [
+		"A14"
+	]
+},
+{
+	"_id": "A16",
+	"name": "Organize a Fast Battleship Force with the Kongou class",
+	"jp": "「金剛」型による高速戦艦部隊を編成せよ！",
+	"description": "Have Kongou, Hiei, Haruna and Kirishima in your Main Fleet.",
+	"ships": [
+		21.0,
+		22.0,
+		23.0,
+		24.0
+	],
+	"rewards": [
+		{
+			"name": "Fourth Fleet"
+		}
+	],
+	"requires": [
+		"A15"
+	]
+},
+{
+	"_id": "A17",
+	"name": "Organize the two Fusou class Battleships",
+	"jp": "「扶桑」型戦艦姉妹の全2隻を編成せよ！",
+	"description": "Have Fusou and Yamashiro in your Main Fleet.",
+	"ships": [
+		26.0,
+		27.0
+	],
+	"rewards": [],
+	"requires": [
+		"A8"
+	]
+},
+{
+	"_id": "A18",
+	"name": "Organize the two Ise class Battleships",
+	"jp": "「伊勢」型戦艦姉妹の全2隻を編成せよ！",
+	"description": "Have Ise and Hyuuga in your Main Fleet.",
+	"ships": [
+		3.0,
+		4.0
+	],
+	"rewards": [],
+	"requires": [
+		"A17"
+	]
+},
+{
+	"_id": "A19",
+	"name": "Organize the Nagumo Carrier Task Force",
+	"jp": "「南雲機動部隊」を編成せよ！",
+	"description": "Have ONLY Akagi, Kaga, Hiryuu and Souryuu in your Main Fleet.",
+	"ships": [
+		6.0,
+		7.0,
+		8.0,
+		9.0
+	],
+	"rewards": [],
+	"requires": [
+		"A13"
+	]
+},
+{
+	"_id": "A2",
+	"jp": "「駆逐隊」を編成せよ！",
+	"name": "Organize a Destroyer Division",
+	"description": "Have 4 DDs in your fleet.",
+	"rewards": [],
+	"requires": [
+		"A1"
+	]
+},
+{
+	"_id": "A20",
+	"name": "Organize the Mikawa Fleet",
+	"jp": "「三川艦隊」を編成せよ！",
+	"description": "Have Choukai, Aoba, Kako, Furutaka, Tenryuu and one FAST ship in your Main Fleet.",
+	"ships": [
+		62.0,
+		54.0,
+		53.0,
+		52.0,
+		28.0
+	],
+	"rewards": [],
+	"requires": [
+		"A13"
+	]
+},
+{
+	"_id": "A21",
+	"name": "Organize the 4th Cruiser Division",
+	"jp": "「第四戦隊」を編成せよ！",
+	"description": "Have Takao, Atago, Choukai and Maya in your Main Fleet.",
+	"ships": [
+		59.0,
+		60.0,
+		61.0,
+		62.0
+	],
+	"rewards": [],
+	"requires": [
+		"A20"
+	]
+},
+{
+	"_id": "A22",
+	"name": "Organize the Nishimura Fleet",
+	"jp": "「西村艦隊」を編成せよ！",
+	"description": "Have Fusou, Yamashiro, Mogami and Shigure in your Main Fleet.",
+	"ships": [
+		26.0,
+		27.0,
+		51.0,
+		80.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "A23",
+	"name": "Organize the 5th Carrier Division",
+	"jp": "「第五航空戦隊」を編成せよ！",
+	"description": "Have Shoukaku, Zuikaku and 2 DDs in your Main Fleet.",
+	"ships": [
+		106.0,
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A22"
+	]
+},
+{
+	"_id": "A24",
+	"name": "Organize the New Mikawa Fleet",
+	"jp": "新「三川艦隊」を編成せよ！",
+	"description": "Have Choukai, Aoba, Kinugasa, Kako, Furutaka and Tenryuu in your Main Fleet.",
+	"ships": [
+		62.0,
+		54.0,
+		120.0,
+		53.0,
+		52.0,
+		28.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "A25",
+	"name": "Organize a Submarine Fleet",
+	"jp": "潜水艦隊を編成せよ！",
+	"description": "Have 2 SS in a fleet.",
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "A26",
+	"jp": "航空水上打撃艦隊を編成せよ！",
+	"name": "Organize an Aviation Surface Attack Fleet",
+	"description": "Have ONLY 2 BBV and 2 CAV in your Main Fleet.",
+	"rewards": [],
+	"requires": [
+		"A22"
+	]
+},
+{
+	"_id": "A27",
+	"name": "Organize a Medium-sized Submarine Fleet",
+	"jp": "中規模潜水艦隊を編成せよ！",
+	"description": "Have 3 SS in a fleet.",
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "A28",
+	"name": "Organize the 6th Cruiser Division",
+	"jp": "「第六戦隊」を編成せよ！",
+	"description": "Have Furutaka, Kako, Kinugasa and Aoba in your Main Fleet.",
+	"ships": [
+		52.0,
+		53.0,
+		120.0,
+		54.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A10"
+	]
+},
+{
+	"_id": "A29",
+	"name": "Organize the 5th Fleet",
+	"jp": "「第五艦隊」を編成せよ！",
+	"description": "Have Nachi, Ashigara, Tama and Kiso in your Main Fleet.",
+	"ships": [
+		56.0,
+		57.0,
+		40.0,
+		41.0
+	],
+	"rewards": [],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "A3",
+	"jp": "「水雷戦隊」を編成せよ！",
+	"name": "Organize a Torpedo Squadron!",
+	"description": "Have a fleet with a CL flagship and 3 DDs.",
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A2"
+	]
+},
+{
+	"_id": "A30",
+	"name": "Organize the 1st Torpedo Squadron",
+	"jp": "「第一水雷戦隊」を編成せよ！",
+	"description": "Have Abukuma, Akebono, Ushio, Kasumi and Shiranui in your Main Fleet.",
+	"ships": [
+		110.0,
+		68.0,
+		70.0,
+		90.0,
+		92.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A29"
+	]
+},
+{
+	"_id": "A31",
+	"name": "Organize the 8th Destroyer Division",
+	"jp": "「第八駆逐隊」を編成せよ！",
+	"description": "Have ONLY Asashio, Michishio, Ooshio and Arashio in your Main Fleet.",
+	"ships": [
+		85.0,
+		87.0,
+		88.0,
+		89.0
+	],
+	"rewards": [],
+	"requires": [
+		"A25"
+	]
+},
+{
+	"_id": "A32",
+	"name": "Organize the 18th Destroyer Division",
+	"jp": "「第十八駆逐隊」を編成せよ！",
+	"description": "Have ONLY Kasume, Arare, Kagerou and Shiranui in your Main Fleet.",
+	"ships": [
+		90.0,
+		89.0,
+		91.0,
+		92.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"B20"
+	]
+},
+{
+	"_id": "A33",
+	"name": "Organize the 30th Destroyer Division (First Generation)",
+	"jp": "「第三十駆逐隊（第一次）」を編成せよ！",
+	"description": "Have ONLY Mutsuki, Kisaragi, Yayoi and Mochizuki in your Main Fleet.",
+	"ships": [
+		31.0,
+		32.0,
+		164.0,
+		38.0
+	],
+	"rewards": [],
+	"requires": [
+		"A31"
+	]
+},
+{
+	"_id": "A34",
+	"name": "Organize the 30th Destroyer Division (Second Generation)",
+	"jp": "「第三十駆逐隊(第二次)」を編成せよ！",
+	"description": "Have ONLY Mutsuki, Yayoi, Uzuki and Mochizuki in your Main Fleet.",
+	"ships": [
+		31.0,
+		164.0,
+		165.0,
+		38.0
+	],
+	"rewards": [],
+	"requires": [
+		"A33"
+	]
+},
+{
+	"_id": "A35",
+	"name": "Organize the 5th Cruiser Division",
+	"jp": "「第五戦隊」を編成せよ！",
+	"description": "Have Myoukou, Nachi and Haguro in your Main Fleet.",
+	"ships": [
+		55.0,
+		56.0,
+		58.0
+	],
+	"rewards": [],
+	"requires": [
+		"B24"
+	]
+},
+{
+	"_id": "A36",
+	"name": "Organize the New 2nd Carrier Division",
+	"jp": "新編「第二航空戦隊」を編成せよ！",
+	"description": "Have Hiryuu (K2, flagship), Souryuu and 2 DDs in your Main Fleet.",
+	"ships": [
+		9.0,
+		8.0
+	],
+	"rewards": [],
+	"requires": [
+		"A28"
+	]
+},
+{
+	"_id": "A37",
+	"name": "Organize the Submarine Fleet: \"6th Fleet\"",
+	"jp": "潜水艦隊「第六艦隊」を編成せよ！",
+	"description": "Have an AS (flagship) and 4+ SS in your Main Fleet.",
+	"rewards": [],
+	"requires": [
+		"A28"
+	]
+},
+{
+	"_id": "A38",
+	"name": "Deploy the New Radar Type",
+	"jp": "新型電探を配備せよ！",
+	"description": "Have Myoukou (K2, flagship) in a fleet.",
+	"rewards": [
+		{
+			"item": 3.0
+		}
+	],
+	"requires": [
+		"A35"
+	]
+},
+{
+	"_id": "A39",
+	"name": "Strengthen the Reorganized 2nd Carrier Division",
+	"jp": "再編成「第二航空戦隊」を強化せよ！",
+	"description": "Have Souryuu (K2, flagship), Hiryuu (K2) and 2 DDs in your Main Fleet.",
+	"ships": [
+		8.0,
+		9.0
+	],
+	"rewards": [],
+	"requires": [
+		"B25"
+	]
+},
+{
+	"_id": "A4",
+	"name": "Organize a Fleet of 6 ships",
+	"jp": "6隻編成の艦隊を編成せよ！",
+	"description": "Have 6 ships in your fleet.",
+	"rewards": [
+		{
+			"name": "Second Fleet"
+		},
+		{
+			"name": "Expeditions"
+		}
+	],
+	"requires": [
+		"A3"
+	]
+},
+{
+	"_id": "A40",
+	"name": "Gather all of the Elite 3rd Battleship Division",
+	"jp": "精鋭「第三戦隊」全艦集結せよ！",
+	"ships": [
+		21.0,
+		22.0,
+		23.0,
+		24.0
+	],
+	"description": "Have Kongou (K2), Hiei (K2), Haruna (K2) and Kirishima (K2) in your Main Fleet.",
+	"rewards": [
+		{
+			"item": 33.0
+		}
+	],
+	"requires": [
+		"WB02"
+	]
+},
+{
+	"_id": "A41",
+	"name": "Deploy the New Standard Aircraft Carrier Class",
+	"jp": "「新型正規空母」を配備せよ！",
+	"description": "Have Unryuu as flagship in a fleet.",
+	"ships": [
+		201.0
+	],
+	"rewards": [],
+	"requires": [
+		"A23"
+	]
+},
+{
+	"_id": "A42",
+	"name": "Organize the Main Battleship Force: \"The 2nd Squadron\"",
+	"jp": "主力戦艦部隊「第二戦隊」を編成せよ！",
+	"description": "Have Nagato, Mutsu, Fusou and Yamashiro in your Main Fleet.",
+	"rewards": [],
+	"ships": [
+		1.0,
+		2.0,
+		26.0,
+		27.0
+	],
+	"requires": [
+		"A32"
+	]
+},
+{
+	"_id": "A43",
+	"name": "Organize a Surface Attack Fleet with Battleships Comprising the Main Force",
+	"jp": "戦艦を主力とした水上打撃部隊を編成せよ！",
+	"description": "Have 3 ships from the Nagato, Ise, Fusou or Yamato class, plus 1 CL in your Main Fleet.",
+	"rewards": [],
+	"requires": [
+		"B31"
+	]
+},
+{
+	"_id": "A44",
+	"name": "Reorganize the Nishimura Fleet",
+	"jp": "「西村艦隊」を再編成せよ！",
+	"description": "Have Fusou, Yamashiro, Mogami, Shigure and Michishio in your Main Fleet.",
+	"ships": [
+		26.0,
+		27.0,
+		51.0,
+		80.0,
+		87.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"A35",
+		"B14"
+	]
+},
+{
+	"_id": "A45",
+	"name": "Prepare the Improvement Arsenal",
+	"jp": "改修工廠を準備せよ！",
+	"description": "Have Akashi as flagship in your main fleet.",
+	"ships": [
+		182.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 5.0
+		}
+	],
+	"requires": [
+		"A9"
+	]
+},
+{
+	"_id": "A46",
+	"name": "Organize a Light Surface Counterattack Fleet",
+	"jp": "軽快な「水上反撃部隊」を編成せよ！",
+	"description": "Have Kasumi (flagship), Ashigara, 1 CL and 3 DDs in your Main Fleet.",
+	"ships": [
+		90.0,
+		57.0
+	],
+	"rewards": [],
+	"requires": [
+		"A23",
+		"B14"
+	]
+},
+{
+	"_id": "A47",
+	"name": "Organize the 11th Destroyer Division",
+	"jp": "「第十一駆逐隊」を編成せよ！",
+	"description": "Have ONLY Fubuki, Shirayuki, Hatsuyuki and Murakumo in your Main Fleet.",
+	"ships": [
+		11.0,
+		12.0,
+		13.0,
+		15.0
+	],
+	"rewards": [],
+	"requires": [
+		"A32"
+	]
+},
+{
+	"_id": "A48",
+	"name": "Organize the 21st Destroyer Division",
+	"jp": "「第二一駆逐隊」を編成せよ！",
+	"description": "Have ONLY Hatsuharu, Hatsushimo, Nenohi and Wakaba in your Main Fleet.",
+	"ships": [
+		75.0,
+		78.0,
+		76.0,
+		77.0
+	],
+	"rewards": [],
+	"requires": [
+		"B35"
+	]
+},
+{
+	"_id": "A49",
+	"name": "Organize the 22nd Destroyer Division",
+	"jp": "「第二二駆逐隊」を編成せよ！",
+	"description": "Have ONLY Satsuki, Fumizuki, Nagatsuki and 1 more DD in your Main Fleet.",
+	"ships": [
+		33.0,
+		34.0,
+		35.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"B38"
+	]
+},
+{
+	"_id": "A5",
+	"name": "Organize a Fleet of 2 Light Cruisers",
+	"jp": "軽巡2隻を擁する隊を編成せよ！",
+	"description": "Have 2 CL in a fleet.",
+	"rewards": [],
+	"requires": [
+		"A3"
+	]
+},
+{
+	"_id": "A50",
+	"name": "Reorganize the Mikawa Fleet and prepare to rush in",
+	"jp": "「三川艦隊」を新編、突入準備せよ！",
+	"description": "Have a fleet with Choukai (K2, flagship) and 5 of the following: Furutaka, Kako, Aoba, Kinugasa, Yuubari, Tenryuu.",
+	"ships": [
+		62.0,
+		52.0,
+		53.0,
+		54.0,
+		120.0,
+		111.0,
+		28.0
+	],
+	"rewards": [],
+	"requires": [
+		"A34",
+		"B16"
+	]
+},
+{
+	"_id": "A51",
+	"name": "Reorganize the 18th Squadron",
+	"jp": "「第十八戦隊」を新編成せよ！",
+	"description": "Have Tenryuu, Tatsuta and at least 2 other ships in your fleet.",
+	"ships": [
+		28.0,
+		29.0
+	],
+	"rewards": [],
+	"requires": [
+		"A18",
+		"B42"
+	]
+},
+{
+	"_id": "A52",
+	"name": "Organize the Marine Rush Fleet",
+	"jp": "海上突入部隊を編成せよ！",
+	"description": "Have Hiei, Kirishima, Nagara, Akatsuki, Ikazuchi and Inazuma in your Main Fleet.",
+	"ships": [
+		22.0,
+		24.0,
+		42.0,
+		71.0,
+		73.0,
+		74.0
+	],
+	"rewards": [],
+	"requires": [
+		"B16"
+	]
+},
+{
+	"_id": "A53",
+	"name": "Organize the New 6th Destroyer Division",
+	"jp": "新編「第六駆逐隊」を編成せよ！",
+	"description": "Have Akatsuki (K2, flagship), Hibiki/Verniy, Ikazuchi and Inazuma in your Main Fleet.",
+	"ships": [
+		71.0,
+		72.0,
+		73.0,
+		74.0
+	],
+	"rewards": [
+		{
+			"item": 11.0
+		}
+	],
+	"requires": [
+		"B14"
+	]
+},
+{
+	"_id": "A54",
+	"name": "1st Torpedo Squadron, prepare for a rush to the Norther Sea",
+	"jp": "「第一水雷戦隊」北方突入準備！",
+	"description": "Have Abukuma (flagship), Hibiki/Verniy, Hatsushimo, Wakaba, Samidare and Shimakaze in your Main Fleet.",
+	"ships": [
+		110.0,
+		72.0,
+		78.0,
+		77.0,
+		83.0,
+		10.0
+	],
+	"rewards": [],
+	"requires": [
+		"B21",
+		"Bd1"
+	]
+},
+{
+	"_id": "A55",
+	"name": "1st Torpedo Squadron, Prepare for another Rush to the Northern Sea",
+	"jp": "「第一水雷戦隊」北方再突入準備！",
+	"description": "Have Abukuma (K2, flagship), Hibiki/Verniy, Yuugumo, Naganami, Akigumo and Shimakaze in your Main Fleet.",
+	"ships": [
+		110.0,
+		72.0,
+		133.0,
+		135.0,
+		132.0,
+		10.0
+	],
+	"rewards": [],
+	"requires": [
+		"C7",
+		"B46"
+	]
+},
+{
+	"_id": "A56",
+	"name": "Reorganize the 5th Carrier Division",
+	"jp": "「第五航空戦隊」を再編成せよ！",
+	"description": "Have Shoukaku, Zuikaku, Oboro and Akigumo in your Main Fleet.",
+	"ships": [
+		106.0,
+		107.0,
+		67.0,
+		132.0
+	],
+	"rewards": [],
+	"requires": [
+		"A23",
+		"Bm6"
+	]
+},
+{
+	"_id": "A57",
+	"name": "Prepare the New 21st Squadron for Sortie",
+	"jp": "新編「第二一戦隊」出撃準備！",
+	"description": "Have Nachi (K2), Ashigara (K2), Tama and Kiso in your Main Fleet.",
+	"ships": [
+		56.0,
+		57.0,
+		40.0,
+		41.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"A50",
+		"B34"
+	]
+},
+{
+	"_id": "A58",
+	"name": "Organize the 16th Squadron (First Generation)",
+	"jp": "第十六戦隊(第一次)」を編成せよ！",
+	"description": "Have Ashigara (flagship), Kuma and Nagara in your Main Fleet.",
+	"ships": [
+		57.0,
+		39.0,
+		42.0
+	],
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	]
+},
+{
+	"_id": "A59",
+	"name": "Organize the 3rd Carrier Division",
+	"jp": "「第三航空戦隊」を編成せよ！",
+	"description": "Have Zuikaku (Kai, flagship), Zuihou, Chitose (CVL) and Chiyoda (CVL) in your Main Fleet.",
+	"ships": [
+		107.0,
+		112.0,
+		49.0,
+		50.0
+	],
+	"rewards": [
+		{
+			"item": 15.0
+		}
+	],
+	"requires": [
+		"Bm6",
+		"F21"
+	]
+},
+{
+	"_id": "A6",
+	"jp": "第2艦隊を編成せよ！",
+	"name": "Organize the Second Fleet",
+	"description": "Have a flagship in the Second Fleet.",
+	"rewards": [],
+	"requires": [
+		"A4"
+	]
+},
+{
+	"_id": "A60",
+	"name": "Organize the 4th Carrier Division",
+	"jp": "「第四航空戦隊」を編成せよ！",
+	"description": "Have Hyuuga (Kai) and Ise (Kai) in your main fleet.",
+	"ships": [
+		4.0,
+		3.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		},
+		{
+			"item": 16.0
+		}
+	],
+	"requires": [
+		"B53"
+	]
+},
+{
+	"_id": "A61",
+	"name": "Organize Ozawa's Fleet",
+	"jp": "「小沢艦隊」を編成せよ！",
+	"description": "Have Zuikaku (Kai, flagship), Zuihou (Kai), Chitose (CVL), Chiyoda (CVL), Ise (Kai) and Hyuuga (Kai) in your Main Fleet.",
+	"ships": [
+		107.0,
+		112.0,
+		49.0,
+		50.0,
+		3.0,
+		4.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"Bm7",
+		"A60"
+	]
+},
+{
+	"_id": "A62",
+	"name": "Organize the New Carrier Division",
+	"jp": "新航空戦隊を編成せよ！",
+	"description": "Have Zuikaku (K2), Shoukaku (K2) and 2 DDs in your fleet.",
+	"ships": [
+		107.0,
+		106.0
+	],
+	"rewards": [
+		{
+			"item": 15.0
+		},
+		{
+			"item": 13.0
+		}
+	],
+	"requires": [
+		"F29"
+	]
+},
+{
+	"_id": "A63",
+	"name": "Organize the 16th Squadron (Second Generation)",
+	"jp": "「第十六戦隊(第二次)」を編成せよ！",
+	"description": "Have Natori (flagship), Isuzu and Kinu in your fleet.",
+	"ships": [
+		44.0,
+		42.0,
+		109.0
+	],
+	"rewards": [],
+	"requires": [
+		"B52"
+	]
+},
+{
+	"_id": "A64",
+	"name": "Organize the New Carrier Divison",
+	"jp": "「新編成航空戦隊」を編成せよ！",
+	"description": "Have 2 CV(L), 2 BBV/CAV and 2 DDs in your fleet.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"B50",
+		"B55"
+	]
+},
+{
+	"_id": "A65",
+	"name": "Reorganize the Strengthened Surface Counterattack Fleet",
+	"jp": "精強な「水上反撃部隊」を再編成せよ！",
+	"description": "Have Kasumi (flagship), Ashigara, Ooyodo, Asashimo and Kiyoshimo in your fleet.",
+	"ships": [
+		90.0,
+		57.0,
+		183.0,
+		225.0,
+		210.0
+	],
+	"rewards": [],
+	"requires": [
+		"B56"
+	]
+},
+{
+	"_id": "A66",
+	"name": "Organize the 31st Division (First Generation)",
+	"jp": "「第三十一戦隊(第一次)」を編成せよ！",
+	"description": "Have Isuzu (K2, flagship), Satsuki (K2) and Uzuki (Kai) in your fleet.",
+	"ships": [
+		43.0,
+		33.0,
+		165.0
+	],
+	"rewards": [
+		{
+			"item": 13.0
+		}
+	],
+	"requires": [
+		"Bd2",
+		"B55"
+	]
+},
+{
+	"_id": "A67",
+	"name": "Organize the 27th Destroyer Division",
+	"jp": "「第二七駆逐隊」を編成せよ！",
+	"description": "Have ONLY Shiratsuyu (Kai, flagship), Shigure, Harusame and Samidare in your fleet.",
+	"ships": [
+		79.0,
+		80.0,
+		205.0,
+		83.0
+	],
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	]
+},
+{
+	"_id": "A68",
+	"jp": "強行高速輸送部隊を編成せよ！",
+	"name": "Organize a Forced High-speed Transport Fleet",
+	"description": "Have Sendai (K2, flag), Kawakaze (K2), Shigure (K2) and 2 DDs in your fleet.",
+	"ships": [
+		46.0,
+		259.0,
+		80.0
+	],
+	"rewards": [],
+	"requires": [
+		"A60",
+		"Bd1"
+	]
+},
+{
+	"_id": "A69",
+	"jp": "新編「水雷戦隊」を含む艦隊を再編成せよ！",
+	"name": "Organise a New Torpedo Squadron!",
+	"description": "Have a CL/CLT/CT (flag) and 4 DD in your fleet.",
+	"ships": [],
+	"rewards": [],
+	"requires": ["A9"]
+},
+{
+	"_id": "A7",
+	"jp": "「重巡戦隊」を編成せよ！",
+	"name": "Organize a Heavy Cruiser Division",
+	"description": "Have 2 CA in a fleet (CAV don't count).",
+	"rewards": [],
+	"requires": [
+		"A5"
+	]
+},
+{
+	"_id": "A8",
+	"jp": "「天龍」型軽巡姉妹の全2艦を編成せよ！",
+	"name": "Organize the two Tenryuu class Light Cruisers",
+	"description": "Have Tenryuu and Tatsuta in your Main Fleet.",
+	"ships": [
+		28.0,
+		29.0
+	],
+	"rewards": [],
+	"requires": [
+		"A5"
+	]
+},
+{
+	"_id": "A9",
+	"name": "Deploy a Seaplane Tender",
+	"jp": "「水上機母艦」を配備せよ！",
+	"description": "Have an AV in a fleet.",
+	"rewards": [],
+	"requires": [
+		"A4"
+	]
+},
+{
+	"_id": "B1",
+	"name": "The First Sortie",
+	"jp": "はじめての「出撃」！",
+	"description": "Sortie your Main Fleet.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "B10",
+	"name": "Sink an Enemy Carrier",
+	"jp": "敵空母を撃沈せよ！",
+	"description": "Sink an enemy CV(L).",
+	"rewards": [
+		{
+			"ship": 6.0
+		}
+	],
+	"requires": [
+		"A11"
+	]
+},
+{
+	"_id": "B11",
+	"name": "Sortie the Mikawa Fleet",
+	"jp": "「三川艦隊」出撃せよ！",
+	"description": "Sortie Choukai, Aoba, Kako, Furutaka, Tenryuu and one FAST ship.",
+	"ships": [
+		62.0,
+		54.0,
+		54.0,
+		52.0,
+		28.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A20"
+	]
+},
+{
+	"_id": "B12",
+	"name": "Sortie the 6th Destroyer Division",
+	"jp": "「第六駆逐隊」出撃せよ！",
+	"description": "Sortie Akatsuki, Hibiki, Ikazuchi and Inazuma.",
+	"rewards": [],
+	"requires": [
+		"A10",
+		"Bw3"
+	]
+},
+{
+	"_id": "B13",
+	"name": "Sortie the 4th Cruiser Division",
+	"jp": "「第四戦隊」出撃せよ！",
+	"description": "Sortie Takao, Atago, Maya, Choukai and 2 additional ships to 2-2 and defeat the boss.",
+	"ships": [
+		59.0,
+		60.0,
+		61.0,
+		62.0
+	],
+	"rewards": [],
+	"requires": [
+		"A21"
+	]
+},
+{
+	"_id": "B14",
+	"name": "Sortie the Nishimura Fleet",
+	"jp": "「西村艦隊」出撃せよ！",
+	"description": "Sortie Fusou, Yamashiro, Mogami, Shigure and 2 addition ships to 2-3 and defeat the boss.",
+	"ships": [
+		26.0,
+		27.0,
+		51.0,
+		80.0
+	],
+	"rewards": [],
+	"requires": [
+		"A22"
+	]
+},
+{
+	"_id": "B15",
+	"name": "Sortie the 5th Carrier Divison",
+	"jp": "「第五航空戦隊」出撃せよ！",
+	"description": "Sortie Shoukaku, Zuikaku and 4 additional ships to 3-1 and defeat the boss.",
+	"rewards": [],
+	"ships": [
+		106.0,
+		107.0
+	],
+	"requires": [
+		"A23"
+	]
+},
+{
+	"_id": "B16",
+	"name": "Sortie the New Mikawa Fleet",
+	"jp": "新「三川艦隊」出撃せよ！",
+	"description": "Sortie Choukai, Furutaka, Kako, Aoba, Kinugasa and Tenryuu to 2-3 and defeat the boss.",
+	"ships": [
+		62.0,
+		52.0,
+		53.0,
+		54.0,
+		120.0,
+		28.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A24"
+	]
+},
+{
+	"_id": "B17",
+	"name": "Sortie a Submarine Fleet",
+	"jp": "「潜水艦隊」出撃せよ！",
+	"description": "Sortie 2 SS and 4 additional ships to 2-3 and defeat the boss.",
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"A25"
+	]
+},
+{
+	"_id": "B18",
+	"name": "Sortie an Aviation Surface Attack Fleet",
+	"jp": "「航空水上打撃艦隊」出撃せよ！",
+	"description": "Sortie 2 CAV, 2 BBV and 2 additional ships to 4-2 and defeat the boss.",
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A26"
+	]
+},
+{
+	"_id": "B19",
+	"name": "Sortie the 6th Cruiser Division",
+	"jp": "「第六戦隊」出撃せよ！",
+	"description": "Sortie Aoba, Furutaka, Kako, Kinugasa and two additional ships to 2-3 and S-rank the boss.",
+	"ships": [
+		54.0,
+		52.0,
+		53.0,
+		120.0
+	],
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A28"
+	]
+},
+{
+	"_id": "B2",
+	"name": "Guard the Sea in Front of the Naval Base",
+	"jp": "鎮守府正面海域を護れ！",
+	"description": "Sortie to 1-1 and clear it.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "B20",
+	"name": "Sortie the 8th Destroyer Division",
+	"jp": "「第八駆逐隊」出撃せよ！",
+	"description": "Sortie Arashio, Asashio, Michishio, Ooshio and 2 other ships to 2-3 and defeat the boss.",
+	"ships": [
+		88.0,
+		86.0,
+		87.0,
+		86.0
+	],
+	"rewards": [],
+	"requires": [
+		"A31"
+	]
+},
+{
+	"_id": "B21",
+	"name": "Sortie the 18th Destroyer Division",
+	"jp": "「第十八駆逐隊」出撃せよ！",
+	"description": "Sortie Arare, Kagerou, Kasumi, Shiranui and 2 additional ships to 3-1 and defeat the boss.",
+	"ships": [
+		89.0,
+		91.0,
+		90.0,
+		92.0
+	],
+	"rewards": [],
+	"requires": [
+		"A32"
+	]
+},
+{
+	"_id": "B22",
+	"name": "Sortie the 30th Destroyer Division (First Generation)",
+	"jp": "「第三十駆逐隊(第一次)」出撃せよ！",
+	"description": "Sortie Mutsuki, Kisaragi, Mochizuki, Yayoi and 2 DDs (or DD + CL flag) to 3-2 and get a C or better at the boss.",
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A33"
+	]
+},
+{
+	"_id": "B23",
+	"name": "Sortie an Aviation Battleship",
+	"jp": "「航空戦艦」抜錨せよ！",
+	"description": "Sortie a fleet with at least 2 BBVs to 4-4 and defeat the boss.",
+	"rewards": [],
+	"requires": [
+		"D10"
+	]
+},
+{
+	"_id": "B24",
+	"description": "Sortie Mutsuki, Mochizuki, Uzuki and Yayoi to 1-5 and get a C rank or better at the boss.",
+	"jp": "「第三十駆逐隊」対潜哨戒！",
+	"name": "30th Destroyer Division Anti-Submarine Patrol",
+	"requires": [
+		"A34"
+	],
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"ships": [
+		31.0,
+		38.0,
+		165.0,
+		164.0
+	]
+},
+{
+	"_id": "B25",
+	"name": "Sortie the New 2nd Carrier Division",
+	"jp": "新編「第二航空戦隊」出撃せよ！",
+	"description": "Sortie Hiryuu (K2, flagship), Souryuu (Kai/K2), 2 DDs and optionally other ships to 5-2 and S Rank the boss.",
+	"ships": [
+		9.0,
+		8.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A36"
+	]
+},
+{
+	"_id": "B26",
+	"name": "Sortie the Elite 2nd Carrier Division",
+	"jp": "精鋭「第二航空戦隊」抜錨せよ！",
+	"description": "Sortie Souryuu (K2, flagship), Hiryuu (K2), 2 DDs and 2 additional ships to 4-3 and S-rank the boss.",
+	"ships": [
+		8.0,
+		9.0
+	],
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"A39"
+	]
+},
+{
+	"_id": "B27",
+	"name": "Sortie the Battleship: \"Haruna\"",
+	"jp": "戦艦「榛名」出撃せよ！",
+	"description": "Sortie Haruna (K2) and 5 additional ships to 5-1 and S-rank the boss.",
+	"ships": [
+		23.0
+	],
+	"rewards": [
+		{
+			"item": 33.0
+		}
+	],
+	"requires": [
+		"B24"
+	]
+},
+{
+	"_id": "B28",
+	"name": "Sortie the 601st Naval Air Group",
+	"jp": "「第六〇一航空隊」出撃せよ！",
+	"description": "Sortie Unryuu (Kai) and 5 additional ships to 5-2 and S-rank the boss.",
+	"ships": [
+		201.0
+	],
+	"rewards": [
+		{
+			"item": 35.0
+		}
+	],
+	"requires": [
+		"A41"
+	]
+},
+{
+	"_id": "B29",
+	"name": "Sortie a Light Carrier Squadron",
+	"jp": "「軽空母」戦隊、出撃せよ！",
+	"description": "Sortie 1-2 CVLs, 1 CL and 3-4 DDs to 2-1 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A5"
+	]
+},
+{
+	"_id": "B3",
+	"name": "Sortie the 2nd Fleet",
+	"jp": "第2艦隊、出撃せよ！",
+	"description": "Sortie your Second Fleet.",
+	"rewards": [],
+	"requires": [
+		"A6"
+	]
+},
+{
+	"_id": "B30",
+	"name": "Torpedo Squadron Bashi Island Emergency Deployment",
+	"jp": "「水雷戦隊」バシー島沖緊急展開",
+	"description": "Sortie 1-2 CLs (flagship) and 4-5 DDs to 2-2 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"B6"
+	]
+},
+{
+	"_id": "B31",
+	"name": "Sortie the 2nd Squadron",
+	"jp": "「第二戦隊」抜錨！",
+	"description": "Sortie Fusou, Mutsu, Nagato, Yamashiro and 2 additional ships to 4-2 and S-rank the boss twice.",
+	"ships": [
+		26.0,
+		2.0,
+		1.0,
+		27.0
+	],
+	"rewards": [
+		{
+			"item": 36.0
+		}
+	],
+	"requires": [
+		"A42"
+	]
+},
+{
+	"_id": "B32",
+	"name": "Rush the Battleship Force to the Northern Sea",
+	"jp": "「戦艦部隊」北方海域に突入せよ！",
+	"description": "Sortie 2 BBs (not BBV), 1 CVL and 3 additional ships to 3-5 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 36.0
+		}
+	],
+	"requires": [
+		"Bm4"
+	]
+},
+{
+	"_id": "B33",
+	"name": "Advance the Nishumura Fleet to the Southern Sea",
+	"jp": "「西村艦隊」南方海域へ進出せよ！",
+	"description": "Sortie Fusou, Yamashiro, Mogami, Shigure, Michishio and 1 additional ship to 5-1 and S-rank the boss.",
+	"ships": [
+		26.0,
+		27.0,
+		51.0,
+		80.0,
+		87.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 5.0
+		},
+		{
+			"item": 6.0
+		}
+	],
+	"requires": [
+		"A44"
+	]
+},
+{
+	"_id": "B34",
+	"name": "Sortie the 6th Squadron to the Southwestern Sea",
+	"jp": "「第六戦隊」南西海域へ出撃せよ！",
+	"description": "Sortie Furutaka, Kako, Aoba, Kinugasa and 2 additional ships to 2-5 and S-rank the boss.",
+	"ships": [
+		54.0,
+		52.0,
+		53.0,
+		120.0
+	],
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"B19"
+	]
+},
+{
+	"_id": "B35",
+	"name": "Sortie the 11th Destroyer Division",
+	"jp": "「第十一駆逐隊」 出撃せよ！",
+	"description": "Sortie Fubuki, Shirayuki, Hatsuyuki, Murakumo and 2 additional ships to 2-3 and defeat the boss.",
+	"ships": [
+		11.0,
+		12.0,
+		13.0,
+		15.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A47"
+	]
+},
+{
+	"_id": "B36",
+	"name": "The 11th Destroyer Division Anti-Submarine Patrol",
+	"jp": "「第十一駆逐隊」対潜哨戒!",
+	"description": "Sortie Fubuki, Shirayuki, Hatsuyuki and Murakumo to 1-5 and get at least a C rank at the boss.",
+	"ships": [
+		11.0,
+		12.0,
+		13.0,
+		15.0
+	],
+	"rewards": [
+		{
+			"item": 9.0
+		}
+	],
+	"requires": [
+		"A47"
+	]
+},
+{
+	"_id": "B37",
+	"name": "Sortie the 21st Destroyer Division",
+	"jp": "「第二一駆逐隊」出撃せよ！",
+	"description": "Sortie Hatsuharu, Nenohi, Wakaba, Hatsushimo and 2 additional ships to 3-1 and S-rank the boss.",
+	"ships": [
+		75.0,
+		76.0,
+		77.0,
+		78.0
+	],
+	"rewards": [
+		{
+			"item": 8.0
+		}
+	],
+	"requires": [
+		"A48"
+	]
+},
+{
+	"_id": "B38",
+	"name": "Sortie the Nachi Squadron",
+	"jp": "「那智戦隊」抜錨せよ！",
+	"description": "Sortie Nachi (flagship), Hatsushimo, Kasumi, Ushio, Akebono and 1 other ship to 2-2 and S-rank the boss.",
+	"ships": [
+		56.0,
+		78.0,
+		90.0,
+		70.0,
+		68.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"B37",
+		"Bm1"
+	]
+},
+{
+	"_id": "B39",
+	"name": "Sortie the 22nd Destroyer Division",
+	"jp": "「第二二駆逐隊」出撃せよ！",
+	"description": "Sortie Satsuki, Fumizuki, Nagatsuki, 1 DD and 2 additional ships to 1-4 and S-rank the boss.",
+	"ships": [
+		33.0,
+		34.0,
+		35.0
+	],
+	"rewards": [
+		{
+			"item": 13.0
+		}
+	],
+	"requires": [
+		"A49"
+	]
+},
+{
+	"_id": "B4",
+	"name": "Sortie to the Southwestern Archipelago Sea",
+	"jp": "南西諸島沖に出撃せよ！",
+	"description": "Sortie to 1-2 and defeat the boss.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "B40",
+	"name": "Sortie the Remodeled Anti-Air Heavy Cruiser",
+	"jp": "「改装防空重巡」出撃せよ！",
+	"description": "Sortie Maya (Kai/K2), 1CL, 2 DDs and up to 2 additional ships to 2-3 and S-rank the boss.",
+	"ships": [
+		61.0
+	],
+	"rewards": [
+		{
+			"item": 38.0
+		},
+		{
+			"item": 37.0
+		}
+	],
+	"requires": [
+		"D15"
+	]
+},
+{
+	"_id": "B41",
+	"name": "Sortie the New Mikawa Fleet to the Solomon Waters",
+	"jp": "新編「三川艦隊」ソロモン方面へ！",
+	"description": "Sortie Choukai (K2, flagship) and a combination of Furutaka, Kako, Aoba, Kinugasa, Yuubari, Tenryuu to 5-1 and S-rank the boss.",
+	"ships": [
+		62.0,
+		52.0,
+		53.0,
+		54.0,
+		120.0,
+		111.0,
+		28.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"C5"
+	]
+},
+{
+	"_id": "B42",
+	"name": "The 6th Destroyer Division Anti-Submarine Patrol nanodesu",
+	"jp": "「第六駆逐隊」対潜哨戒なのです！",
+	"description": "Sortie Akatsuki, Hibiki/Verniy, Ikazuchi and Inazuma to 1-5 and get a C or better at the boss.",
+	"ships": [
+		71.0,
+		72.0,
+		73.0,
+		74.0
+	],
+	"rewards": [
+		{
+			"item": 10.0
+		}
+	],
+	"requires": [
+		"A10"
+	]
+},
+{
+	"_id": "B43",
+	"name": "18th Squadron, Set Sail!",
+	"jp": "抜錨！「第十八戦隊」",
+	"description": "Sortie Tenryuu, Tatsuta and at least 2 wildcards to 2-3 and S-rank the boss.",
+	"ships": [
+		28.0,
+		29.0
+	],
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"A51"
+	]
+},
+{
+	"_id": "B44",
+	"name": "Deploy the Marine Rush Fleet",
+	"jp": "海上突入部隊、進発せよ！",
+	"description": "Sortie Hiei, Kirishima, Nagara, Akatsuki, Ikazuchi and Inazuma to 5-1 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"ships": [
+		22.0,
+		24.0,
+		42.0,
+		71.0,
+		73.0,
+		74.0
+	],
+	"requires": [
+		"A52",
+		"Bw9"
+	]
+},
+{
+	"_id": "B45",
+	"name": "A Thorough 6th Destroyer Division Anti-Submarine Patrol nanodesu",
+	"jp": "「第六駆逐隊」対潜哨戒を徹底なのです！",
+	"description": "Sortie Akatsuki (K2), Hibiki, Ikazuchi and Inazuma to 1-5 and A-rank the boss.",
+	"ships": [
+		71.0,
+		72.0,
+		73.0,
+		74.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		},
+		{
+			"item": 10.0
+		}
+	],
+	"requires": [
+		"A53",
+		"B42"
+	]
+},
+{
+	"_id": "B46",
+	"name": "Rush the 1st Torpedo Squadron to Operation Ke",
+	"jp": "「第一水雷戦隊」ケ号作戦、突入せよ！",
+	"description": "Sortie Abukuma (flagship), Hibiki/Verniy, Hatsushimo, Wakaba, Samidare and Shimakaze to 3-2 and defeat the boss.",
+	"ships": [
+		110.0,
+		72.0,
+		78.0,
+		83.0,
+		10.0
+	],
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"A54"
+	]
+},
+{
+	"_id": "B47",
+	"name": "Rush the 1st Torpedo Squadron to Operation KE Again",
+	"jp": "「第一水雷戦隊」北方ケ号作戦、再突入！",
+	"description": "Sortie Abukuma (K2, flagship), Hibiki, Yuugumo, Nanagami, Akigumo and Shimakaze to 3-2 and S-rank the boss.",
+	"ships": [
+		110.0,
+		72.0,
+		133.0,
+		135.0,
+		132.0,
+		10.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 4.0
+		}
+	],
+	"requires": [
+		"A55"
+	]
+},
+{
+	"_id": "B48",
+	"name": "Strengthen the Anti-Submarine Patrol in Front of the Naval Base",
+	"jp": "鎮守府正面の対潜哨戒を強化せよ！",
+	"description": "Sortie to 1-5 and get 4 A-ranks at the boss.",
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"Bd2"
+	]
+},
+{
+	"_id": "B49",
+	"name": "\"Carrier Task Force\", advance to the Northern Sea",
+	"jp": "「空母機動部隊」北方海域に進出せよ！",
+	"description": "Sortie a CV (flagship) to 3-5 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		},
+		{
+			"item": 20.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"Bd8",
+		"B32"
+	]
+},
+{
+	"_id": "B5",
+	"name": "Intercept the Approaching Enemy Vanguard Fleet",
+	"jp": "接近する「敵前衛艦隊」を迎撃せよ！",
+	"description": "Sortie to 1-2 and clear it (again).",
+	"rewards": [
+		{
+			"ship": 14.0
+		}
+	],
+	"requires": []
+},
+{
+	"_id": "B50",
+	"name": "Sortie the 5th Carrier Division to the Southern Sea Coral Islands",
+	"jp": "「第五航空戦隊」珊瑚諸島沖に出撃せよ！",
+	"description": "Sortie Shoukaku, Zuikaku, Oboro, Akigumo and up to 2 additional ships to 5-2 and S-rank the boss.",
+	"ships": [
+		106.0,
+		107.0,
+		67.0,
+		132.0
+	],
+	"rewards": [
+		{
+			"item": 13.0
+		}
+	],
+	"requires": [
+		"A56"
+	]
+},
+{
+	"_id": "B51",
+	"name": "Sortie the New 21st Squadron to the North",
+	"jp": "新編「第二一戦隊」北方へ出撃せよ！",
+	"description": "Sortie Nachi (K2), Ashigara (K2), Tama, Kiso and up to 2 additional ships to 3-1 and S-rank the boss.",
+	"ships": [
+		56.0,
+		57.0,
+		40.0,
+		41.0
+	],
+	"rewards": [
+		{
+			"item": 20.0
+		}
+	],
+	"requires": [
+		"A57"
+	]
+},
+{
+	"_id": "B52",
+	"name": "Sortie the 16th Squadron (First Generation)",
+	"jp": "「第十六戦隊(第一次)」出撃せよ！",
+	"description": "Sortie Ashigara (flagship), Kuma, Nagara and up to 3 wildcards to 2-2 and S-rank the boss.",
+	"ships": [
+		57.0,
+		39.0,
+		42.0
+	],
+	"rewards": [],
+	"requires": [
+		"A58"
+	]
+},
+{
+	"_id": "B53",
+	"name": "3rd Carrier Division: sortie to defend the Nansei Islands",
+	"jp": "「第三航空戦隊」南西諸島防衛線に出撃！",
+	"description": "Sortie Zuikaki (Kai, flagship), Zuihou, Chitose (CVL) and Chiyoda (CVL) to 1-4 and S-rank the boss. Additional ships are allowed.",
+	"reward": [
+		{
+			"item": 13.0
+		}
+	],
+	"ships": [
+		107.0,
+		112.0,
+		49.0,
+		50.0
+	],
+	"requires": [
+		"A59"
+	]
+},
+{
+	"_id": "B54",
+	"name": "Sortie Ozawa's Fleet",
+	"jp": "「小沢艦隊」出撃せよ！",
+	"description": "Sortie Zuikaku (Kai, flaship), Zuihou (Kai), Chitose (CVL), Chiyoda (CVL), Ise (Kai) and Hyuuga (Kai) to 2-4 and S-rank the boss.",
+	"ships": [
+		107.0,
+		112.0,
+		49.0,
+		50.0,
+		3.0,
+		4.0
+	],
+	"rewards": [
+		{
+			"item": 34.0
+		}
+	],
+	"requires": [
+		"A61"
+	]
+},
+{
+	"_id": "B55",
+	"name": "Sortie the 16th Squadron (Second Generation)",
+	"jp": "「第十六戦隊(第二次)」出撃せよ！",
+	"description": "Sortie Natori (flagship), Isuzu, Kinu and up to 3 additional ships to 2-3 and get an S-rank at the boss.",
+	"ships": [
+		44.0,
+		42.0,
+		109.0
+	],
+	"rewards": [
+		{
+			"item": 2.0
+		}
+	],
+	"requires": [
+		"A63"
+	]
+},
+{
+	"_id": "B56",
+	"name": "Sortie the New Carrier Division to the North",
+	"jp": "新編成航空戦隊、北方へ進出せよ！",
+	"description": "Sortie 2 CV(L), 2 BBV/CAV and 2 DDs to 3-3 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		},
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"A64"
+	]
+},
+{
+	"_id": "B57",
+	"name": "Carry out Operation Rei-gou",
+	"jp": "「礼号作戦」実施せよ！",
+	"description": "Sortie Kasumi (flagship), Ashigara, Ooyodo, Asashimo, Kiyoshimo and up to 1 additional ship to 2-5 and S-rank the boss.",
+	"ships": [
+		90.0,
+		57.0,
+		183.0,
+		225.0,
+		210.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"A65",
+		"Bm5"
+	]
+},
+{
+	"_id": "B58",
+	"name": "Send the Flagship \"Kasumi\" to Patrol the Northern Sea",
+	"jp": "旗艦「霞」北方海域を哨戒せよ！",
+	"description": "Sortie Kasumi (K2, flagship), 3DDs and up to 2 additonal ships to 3-1 and defeat the boss.",
+	"ships": [
+		90.0
+	],
+	"rewards": [
+		{
+			"item": 20.0
+		},
+		{
+			"item": 39.0
+		}
+	],
+	"requires": [
+		"A32",
+		"A46",
+		"C2"
+	]
+},
+{
+	"_id": "B59",
+	"name": "Flagship \"Kasumi\", Sortieing! Destroy the Enemy Fleet!",
+	"jp": "旗艦「霞」出撃！敵艦隊を撃滅せよ！",
+	"description": "Sortie Kasumi (K2, flagship), 2 DDs and up to 3 additional ships to 2-5 and S-rank the boss.",
+	"ships": [
+		90.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		},
+		{
+			"item": 40.0
+		}
+	],
+	"requires": [
+		"B58",
+		"D2"
+	]
+},
+{
+	"_id": "B6",
+	"name": "Sortie a Torpedo Squadron",
+	"jp": "「水雷戦隊」で出撃せよ！",
+	"description": "Sortie a CL (flagship) and 3 DDs.",
+	"rewards": [
+		{
+			"ship": 29.0
+		}
+	],
+	"requires": [
+		"B5"
+	]
+},
+{
+	"_id": "B60",
+	"name": "Sortie the 31st Division",
+	"jp": "「第三十一戦隊」出撃せよ！",
+	"description": "Sortie Isuzu (K2, flagship), Satsuki (K2), Uzuki (Kai) and up to 3 additional ships to 1-6 and reach the end.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		},
+		{
+			"item": 21.0
+		}
+	],
+	"requires": [
+		"A66"
+	]
+},
+{
+	"_id": "B61",
+	"name": "Sortie the 27th Destroyer Division",
+	"jp": "「第二七駆逐隊」出撃せよ！",
+	"description": "Sortie Shiratsuyu (Kai, flagship), Shigure, Harusame, Samidare and up to 2 additional ships to 2-3 and S-rank the boss.",
+	"ships": [
+		79.0,
+		80.0,
+		205.0,
+		83.0
+	],
+	"rewards": [
+		{
+			"item": 41.0
+		}
+	],
+	"requires": [
+		"A67"
+	]
+},
+{
+	"_id": "B62",
+	"name": "Bolster the Capability for Amphibious Assault Operations!",
+	"jp": "強襲上陸作戦用戦力を増強せよ！",
+	"description": "Sortie to 6-3 and defeat the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		},
+		{
+			"item": 42.0
+		}
+	],
+	"requires": [
+		"Bw9"
+	]
+},
+{
+	"_id": "B63",
+	"name": "Defend the Oil Refinery Zone!",
+	"jp": "製油所地帯を防衛せよ！",
+	"description": "Sortie 1 CL (flagship) and 5 DDs to 1-3 and S-rank the boss 3 times.",
+	"rewards": [
+		{
+			"item": 20.0
+		},
+		{
+			"item": 6.0
+		}
+	],
+	"requires": [
+		"Bd2"
+	]
+},
+{
+	"_id": "B64",
+	"name": "Reinforce the Southwestern Archipelago Defense Line",
+	"jp": "南西諸島防衛線を強化せよ！",
+	"description": "Sortie to 1-4 and S-rank the boss 5 times.",
+	"rewards": [
+		{
+			"item": 20.0
+		},
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"B63",
+		"F31"
+	]
+},
+{
+	"_id": "B65",
+	"description": "Sortie Ooshio (flagship) and 0-5 wildcards to 2-3 and get 6 S-ranks at the boss.",
+	"jp": "オリョール海の制海権を確保せよ！",
+	"name": "Secure Control of the Orel Sea",
+	"requires": [
+		"B64"
+	],
+	"rewards": [
+		{
+			"item": 6.0
+		},
+		{
+			"item": 13.0,
+			"num": 2.0
+		}
+	],
+	"ships": [
+		86.0
+	]
+},
+{
+	"_id": "B66",
+	"name": "Sortie the flagship \"Ooshio\"",
+	"jp": "旗艦「大潮」出撃せよ！",
+	"description": "Sortie Ooshio (K2, flagship) to 3-5 and S-rank the boss.",
+	"ships": [
+		86.0
+	],
+	"rewards": [
+		{
+			"item": 20.0
+		},
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"B65"
+	]
+},
+{
+	"_id": "B67",
+	"jp": "艦隊、三周年！",
+	"name": "Fleet, Third Anniversary",
+	"description": "Sortie to 2-2 and 2-3 and get S-ranks at the bosses.",
+	"rewards": [
+		{
+			"item": 47.0
+		}
+	],
+	"requires": []
+},
+{
+	"_id": "B68",
+	"jp": "強行高速輸送部隊、出撃せよ！",
+	"name": "Forced High-speed Transport Fleet, Sortie!",
+	"description": "Sortie Sendai (K2, flag), Kawakaze (K2), Shigure (K2), 2 DDs and 0-1 wildcards to 4-1 and get an A-rank at the boss.",
+	"ships": [
+		49.0,
+		259.0,
+		80.0
+	],
+	"requires": [
+		"A68"
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		},
+		{
+			"item": 13.0
+		}
+	]
+},
+{
+	"_id": "B69",
+	"jp": "「第一航空戦隊」西へ！",
+	"name": "\"1st Carrier Division\", westward!",
+	"description": "Sortie Akagi (flag), Kaga and 0-4 wildcards to 4-5 and S-rank the boss.",
+	"ships": [
+		6.0,
+		7.0
+	],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		},
+		{
+			"item": 15.0
+		}
+	],
+	"requires": [
+		"B68",
+		"F33"
+	]
+},
+{
+	"_id": "B7",
+	"name": "Sortie a Heavy Cruiser",
+	"jp": "「重巡洋艦」を出撃させよ！",
+	"description": "Sortie a fleet with a CA flagship.",
+	"rewards": [],
+	"requires": [
+		"B6"
+	]
+},
+{
+	"_id": "B8",
+	"name": "Sortie a Battleship",
+	"jp": "「戦艦」を出撃させよ！",
+	"description": "Sortie a fleet with a BB flagship.",
+	"rewards": [],
+	"requires": [
+		"B7"
+	]
+},
+{
+	"_id": "B9",
+	"name": "Sortie a Carrier Task Force",
+	"jp": "「空母機動部隊」出撃せよ！",
+	"description": "Sortie a CV(L) (flagship), plus 5 CL/DD/AV.",
+	"rewards": [],
+	"requires": [
+		"B8"
+	]
+},
+{
+	"_id": "Bd1",
+	"name": "Crush an Enemy Fleet",
+	"jp": "敵艦隊を撃破せよ！",
+	"description": "Defeat an enemy fleet.",
+	"rewards": [],
+	"requires": [
+		"B4"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd2",
+	"name": "Destroy the Main Force of the Enemy Fleet",
+	"jp": "敵艦隊主力を撃滅せよ！",
+	"description": "Complete a battle.",
+	"rewards": [],
+	"requires": [
+		"Bd1"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd3",
+	"name": "Ambush the Enemy Fleet 10 times",
+	"jp": "敵艦隊を10回邀撃せよ！",
+	"description": "Defeat 10 enemy fleets.",
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd4",
+	"name": "Sink 3 Enemy Carriers",
+	"jp": "敵空母を3隻撃沈せよ！",
+	"description": "Sink 3 enemy CV(L). Only available on dates ending in 3, 7 and 0.",
+	"rewards": [],
+	"requires": [
+		"Bd1"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd5",
+	"name": "Sink 3 Enemy Transport Ships",
+	"jp": "敵補給艦を3隻撃沈せよ！",
+	"description": "Sink 3 Transport Ships.",
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd6",
+	"name": "Strike the Enemy Transport Group",
+	"jp": "敵輸送船団を叩け！",
+	"description": "Sink 5 Transport Ships. Only available on dates ending 2 or 8.",
+	"rewards": [],
+	"requires": [
+		"Bd1"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd7",
+	"name": "Seize Control of the Southwestern Achipelago Sea",
+	"jp": "南西諸島海域の制海権を握れ！",
+	"description": "Defeat 5 bosses in world 2.",
+	"rewards": [],
+	"requires": [
+		"Bd5"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bd8",
+	"name": "Suppress the Enemy Submarines",
+	"jp": "敵潜水艦を制圧せよ！",
+	"description": "Sink 6 submarines.",
+	"rewards": [],
+	"requires": [
+		"Bd7"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "Bm1",
+	"name": "Sortie the 5th Squadron",
+	"jp": "「第五戦隊」出撃せよ！",
+	"description": "Sortie Myoukou, Nachi, Haguro and 3 additional ships to 2-5 and S-rank the boss.",
+	"ships": [
+		55.0,
+		56.0,
+		58.0
+	],
+	"rewards": [],
+	"requires": [
+		"A35"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm2",
+	"name": "Sortie the Submarine Fleet",
+	"jp": "「潜水艦隊」出撃せよ！",
+	"description": "Sortie to 6-1 and S-rank the boss 3 times.",
+	"rewards": [
+		{
+			"item": 13.0
+		}
+	],
+	"requires": [
+		"B30"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm3",
+	"name": "Torpedo Squadron, southwards!",
+	"jp": "「水雷戦隊」南西へ！",
+	"description": "Sortie 1-3 CL (flagship), 3-5 DDs to 1-4 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"Bw4"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm4",
+	"name": "Surface Attack Fleet, to the South!",
+	"jp": "「水上打撃部隊」南方へ！",
+	"description": "Sortie 3 BB(V)s, 1 CL and 2 additional ships to 5-1 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 4.0
+		}
+	],
+	"requires": [
+		"A43"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm5",
+	"name": "Month-long Strengthening of the Marine Escort",
+	"jp": "海上護衛強化月間",
+	"description": "Sortie to 1-5 and A-rank the boss 10 times.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"B21",
+		"Bm1"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm6",
+	"name": "Carrier Task Force, to the West!",
+	"jp": "「空母機動部隊」西へ！",
+	"description": "Sortie 2 CV(L/B), 2 DD and 2 additional ships to 4-2 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"B20",
+		"Bw4"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bm7",
+	"name": "Send in the Surface Counterattack Fleet",
+	"jp": "「水上反撃部隊」突入せよ！",
+	"description": "Sortie 4 DDs (one as flagship), 1 CA (not CAV) and 1 CL to 2-5 and S-rank the boss.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"A46",
+		"Bm6"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "Bq1",
+	"name": "Okinoshima Sea Counter Attack",
+	"jp": "沖ノ島海域迎撃戦",
+	"description": "Sortie to 2-4 and get 2 S-ranks at the boss.",
+	"ships": [],
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 5.0
+		}
+	],
+	"requires": [
+		"B19",
+		"Bm6"
+	],
+	"repeatable": "quarterly"
+},
+{
+	"_id": "Bw1",
+	"name": "Operation A-gou",
+	"jp": "あ号作戦",
+	"description": "Sortie 36 times, encounter 24 bosses, defeat 12 bosses and get 6 S-rank victories.",
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw10",
+	"name": "Strive to Ensure the Security of the Marine Transportation Route",
+	"jp": "海上輸送路の安全確保に努めよ！",
+	"description": "Sortie to 1-5 and A-rank the boss 3 times.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"A45",
+		"Bw4"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw2",
+	"name": "Operation I-gou",
+	"jp": "い号作戦",
+	"description": "Sink 20 CV(L).",
+	"rewards": [],
+	"requires": [
+		"Bd5"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw3",
+	"name": "Maritime Trade Disruption Operation",
+	"jp": "海上通商破壊作戦",
+	"description": "Sink 20 Transport Ships.",
+	"rewards": [],
+	"requires": [
+		"Bd2"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw4",
+	"name": "Operation Ro-gou",
+	"jp": "ろ号作戦",
+	"description": "Sink 50 Transport Ships.",
+	"rewards": [],
+	"requires": [
+		"Bw1"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw5",
+	"name": "Marine Escort Battle",
+	"jp": "海上護衛戦",
+	"description": "Sink 15 Submarines.",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"Bw2"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw6",
+	"name": "Destroy the Enemy's Eastern Fleet",
+	"jp": "敵東方艦隊を撃滅せよ！",
+	"description": "Defeat 12 bosses in world 4.",
+	"rewards": [],
+	"requires": [
+		"Bw5"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw7",
+	"name": "Destroy the Main Force of the Enemy's Northern Fleet",
+	"jp": "敵北方艦隊主力を撃滅せよ！",
+	"description": "Defeat 5 bosses in 3-3, 3-4, or 3-5.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 3.0
+		}
+	],
+	"requires": [
+		"Bw5"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "Bw8",
+	"description": "Defeat the boss of 4-4.",
+	"jp": "敵東方中枢艦隊を撃破せよ！",
+	"name": "Crush the Core of the Enemy's Eastern Fleet",
+	"repeatable": "weekly",
+	"requires": [
+		"Bw5",
+		"Bw6"
+	],
+	"rewards": []
+},
+{
+	"_id": "Bw9",
+	"name": "Seize Air Superiority on the Southern Sea Coral Islands",
+	"jp": "南方海域珊瑚諸島沖の制空権を握れ！",
+	"description": "Sortie to 5-2 and S-rank the boss twice.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"Bw8"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "C1",
+	"name": "The First Exercise",
+	"jp": "はじめての「演習」！",
+	"description": "Complete a PvP match.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "C2",
+	"name": "Increase the Level of Training by Exercising",
+	"jp": "「演習」で練度向上！",
+	"description": "Fight 3 PvP matches.",
+	"rewards": [],
+	"requires": [],
+	"repeatable": "daily"
+},
+{
+	"_id": "C3",
+	"name": "Overwhelm the other Admirals through Exercises",
+	"jp": "「演習」で他提督を圧倒せよ！",
+	"description": "Win 5 PvP matches.",
+	"rewards": [],
+	"requires": [
+		"C2"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "C4",
+	"name": "Large-scale Exercises",
+	"jp": "大規模演習",
+	"description": "Win 20 PvP matches.",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"C2"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "C5",
+	"name": "Strive the Increase the Level of the Fleet's Training",
+	"jp": "艦隊の練度向上に努めよ！",
+	"description": "Win 3 PvP matches in the same day.",
+	"rewards": [],
+	"requires": [
+		"A50"
+	]
+},
+{
+	"_id": "C6",
+	"name": "Continue Exercising, and Strive to Increase the Level of the Fleet's Training",
+	"jp": "演習を強化、艦隊の練度向上に努めよ！",
+	"description": "Win 4 PvP matches in the same day.",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"D17"
+	]
+},
+{
+	"_id": "C7",
+	"name": "Strive to Increase the Level of Training in Preparation for another Rush to the Northern Sea",
+	"jp": "北方再突入に備え、練度向上に努めよ！",
+	"description": "Win 4 PvP matches in 1 day.",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"B46"
+	]
+},
+{
+	"_id": "C8",
+	"name": "Elite Fleet Practice",
+	"jp": "精鋭艦隊演習",
+	"description": "Win 7 PvP matches in the same day.",
+	"rewards": [
+		{
+			"item": 20.0
+		}
+	],
+	"requires": [
+		"Bd2"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "C9",
+	"jp": "上陸部隊演習",
+	"name": "Landing Force Practice",
+	"description": "Win 4 PvP matches in the same day.",
+	"rewards": [
+		{
+			"item": 20.0
+		}
+	],
+	"requires": [
+		"F32",
+		"Bd2"
+	]
+},
+{
+	"_id": "D1",
+	"name": "The First Expedition",
+	"jp": "はじめての「遠征」",
+	"description": "Perform an Expedition",
+	"rewards": [],
+	"requires": [
+		"A5"
+	]
+},
+{
+	"_id": "D10",
+	"name": "Enhance the use of Aviation Firepower",
+	"jp": "航空火力艦の運用を強化せよ！",
+	"description": "Complete Expedition 23.",
+	"rewards": [
+		{
+			"item": 16.0
+		}
+	],
+	"requires": [
+		"B20"
+	]
+},
+{
+	"_id": "D11",
+	"name": "Continue Carrying Out the Rat Transportation to the South",
+	"jp": "南方への鼠輸送を継続実施せよ!",
+	"description": "Perform Expedition 37/38 7 times.",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"D9"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "D12",
+	"name": "(Continuation) Enhance the Use of Aviation Firepower",
+	"jp": "(続)航空火力艦の運用を強化せよ！",
+	"description": "Complete Expedition 23 four times.",
+	"rewards": [
+		{
+			"item": 16.0
+		}
+	],
+	"requires": [
+		"D10"
+	]
+},
+{
+	"_id": "D13",
+	"name": "Carry Out the Deep Sea Submarine Operations",
+	"jp": "遠洋潜水艦作戦を実施せよ！",
+	"description": "Complete Expedition 39",
+	"rewards": [
+		{
+			"item": 44.0
+		}
+	],
+	"requires": [
+		"A37"
+	]
+},
+{
+	"_id": "D14",
+	"name": "Expand the Result of the Deep Sea Submarine Operations",
+	"jp": "遠洋潜水艦作戦の成果を拡大せよ！",
+	"description": "Complete Expedition 39 twice.",
+	"rewards": [
+		{
+			"item": 44.0
+		}
+	],
+	"requires": [
+		"D13"
+	]
+},
+{
+	"_id": "D15",
+	"name": "Carry Out Air Defence Exercises",
+	"jp": "防空射撃演習を実施せよ！",
+	"description": "Complete Expedition 6 three times.",
+	"rewards": [
+		{
+			"item": 37.0
+		}
+	],
+	"requires": [
+		"B7"
+	]
+},
+{
+	"_id": "D16",
+	"name": "Carry Out the Decoy Task Force Support Operation",
+	"jp": "囮機動部隊支援作戦を実施せよ！",
+	"description": "Complete Expedition 15",
+	"rewards": [
+		{
+			"item": 45.0
+		}
+	],
+	"requires": [
+		"B40"
+	]
+},
+{
+	"_id": "D17",
+	"name": "Carry Out Naval Review Rehearsals",
+	"jp": "観艦式予行を実施せよ！",
+	"description": "Complete Expedition 7 twice.",
+	"rewards": [],
+	"requires": [
+		"A35"
+	]
+},
+{
+	"_id": "D18",
+	"name": "Execute Naval Review",
+	"jp": "観艦式を敢行せよ！",
+	"description": "Complete Expedition 8",
+	"rewards": [
+		{
+			"item": 7.0
+		},
+		{
+			"item": 22.0
+		}
+	],
+	"requires": [
+		"C6"
+	]
+},
+{
+	"_id": "D19",
+	"name": "Enhance the Use of the Task Force",
+	"jp": "機動部隊の運用を強化せよ！",
+	"description": "Complete Expeditions 35 and 26.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 2.0
+		}
+	],
+	"requires": [
+		"D9",
+		"B50"
+	]
+},
+{
+	"_id": "D2",
+	"name": "Complete 3 Expeditions",
+	"jp": "「遠征」を3回成功させよう！",
+	"description": "Perform 3 expeditions.",
+	"rewards": [],
+	"requires": [],
+	"repeatable": "daily"
+},
+{
+	"_id": "D3",
+	"name": "Complete 10 Expeditions",
+	"jp": "「遠征」を10回成功させよう！",
+	"description": "Perform 10 expeditions.",
+	"rewards": [],
+	"requires": [
+		"D2"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "D4",
+	"name": "Official Annoucement, Operation Large-scale Expedition",
+	"jp": "大規模遠征作戦、発令！",
+	"description": "Perform 30 Expeditions.",
+	"rewards": [],
+	"requires": [],
+	"repeatable": "weekly"
+},
+{
+	"_id": "D5",
+	"name": "The First Submarine Dispatch Operation",
+	"jp": "第一次潜水艦派遣作戦",
+	"description": "Complete Expedition 30.",
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"A27"
+	]
+},
+{
+	"_id": "D6",
+	"name": "The Second Submarine Dispatch Operation",
+	"jp": "第二次潜水艦派遣作戦",
+	"description": "Complete Expedition 30 (again).",
+	"rewards": [
+		{
+			"item": 43.0
+		}
+	],
+	"requires": [
+		"D5"
+	]
+},
+{
+	"_id": "D7",
+	"name": "Continue to Obtain Technology through Submarine Dispatch Operations",
+	"jp": "潜水艦派遣作戦による技術入手の継続",
+	"description": "Complete Expedition 30 twice.",
+	"rewards": [
+		{
+			"item": 43.0
+		},
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"D6"
+	]
+},
+{
+	"_id": "D8",
+	"name": "Operation Contact Foreign Ship through Submarine Dispatch",
+	"jp": "潜水艦派遣による海外艦との接触作戦",
+	"description": "Complete Expedition 31.",
+	"rewards": [
+		{
+			"ship": 174.0
+		}
+	],
+	"requires": [
+		"D7"
+	]
+},
+{
+	"_id": "D9",
+	"name": "Complete the Transport Operations towards South",
+	"jp": "南方への輸送作戦を成功させよ！",
+	"description": "Complete Expedition 37 or 38",
+	"rewards": [],
+	"requires": [
+		"A30"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "E1",
+	"name": "The First Resupply",
+	"jp": "はじめての「補給」",
+	"description": "Resupply a ship.",
+	"rewards": [],
+	"requires": [
+		"B2"
+	]
+},
+{
+	"_id": "E2",
+	"name": "The First Repair",
+	"jp": "はじめての「入渠」！",
+	"description": "Repair a ship.",
+	"rewards": [],
+	"requires": [
+		"B2"
+	]
+},
+{
+	"_id": "E3",
+	"name": "The Fleet's Large Maintenance",
+	"jp": "艦隊大整備！",
+	"description": "Repair 5 ships.",
+	"rewards": [],
+	"requires": [],
+	"repeatable": "daily"
+},
+{
+	"_id": "E4",
+	"name": "The Fleet's Canteen Festival",
+	"jp": "艦隊酒保祭り！",
+	"description": "Perform 15 resupplies.",
+	"rewards": [],
+	"requires": [
+		"E3"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F1",
+	"name": "The First Construction",
+	"jp": "はじめての「建造」！",
+	"description": "Craft a ship.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "F10",
+	"name": "Prepare for Large Ship Construction (Part 2)",
+	"jp": "「大型艦建造」の準備！(その弐)",
+	"description": "Scrap equipment 4 times.",
+	"rewards": [
+		{
+			"name": "Large Ship Construction"
+		}
+	],
+	"requires": [
+		"G4"
+	]
+},
+{
+	"_id": "F11",
+	"name": "Preparation for Transport Use Drum Canister",
+	"jp": "輸送用ドラム缶の準備",
+	"description": "Scrap equipment 3 times.",
+	"rewards": [
+		{
+			"item": 23.0,
+			"num": 3.0
+		}
+	],
+	"requires": []
+},
+{
+	"_id": "F12",
+	"name": "Recycling Resources (Part 2)",
+	"jp": "資源の再利用(その弐)",
+	"description": "Scrap equipment 24 times.",
+	"rewards": [
+		{
+			"item": 23.0
+		}
+	],
+	"requires": [
+		"Bw5"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "F13",
+	"name": "Model Conversion: Type 97 Torpedo Bomber (Tomonaga Squadron)",
+	"jp": "機種転換",
+	"description": "Equip the flagship with an unlocked Type 97 Torpedo Bomber (Tomonaga Squadron), then scrap 2 Tenzan.",
+	"rewards": [
+		{
+			"item": 24.0
+		}
+	],
+	"requires": [
+		"B25"
+	]
+},
+{
+	"_id": "F14",
+	"name": "Model Conversion: Type 99 Dive Bomber (Egusa Squadron)",
+	"jp": "機種転換",
+	"description": "Have a flagship equipped with an UNLOCKED Type 99 Dive Bomber (Egusa Squadron), then scrap 2 Suisei.",
+	"rewards": [
+		{
+			"item": 25.0
+		}
+	],
+	"requires": [
+		"B25"
+	]
+},
+{
+	"_id": "F15",
+	"name": "Model Conversion: Zero Fighter Type 52 Type C (601 Air Group)",
+	"jp": "機種転換",
+	"description": "Equip a flagship with an UNLOCKED Zero Fighter Type 52 C (601 Air Group), then scrap 2 Reppuu.",
+	"rewards": [
+		{
+			"item": 26.0
+		}
+	],
+	"requires": [
+		"B28"
+	]
+},
+{
+	"_id": "F16",
+	"name": "Preparation for Irako",
+	"jp": "「伊良湖」の準備",
+	"description": "Scrap equipment 10 times.",
+	"rewards": [
+		{
+			"item": 13.0,
+			"num": 4.0
+		}
+	],
+	"requires": [
+		"F8"
+	]
+},
+{
+	"_id": "F17",
+	"name": "The First Equipment Improvement",
+	"jp": "はじめての「装備改修」！",
+	"description": "Do equipment modernization 1 time.",
+	"rewards": [
+		{
+			"item": 7.0,
+			"num": 7.0
+		}
+	],
+	"requires": [
+		"A45"
+	]
+},
+{
+	"_id": "F18",
+	"name": "Equipment Reinforcement",
+	"jp": "装備の改修強化",
+	"description": "Perform equipment modernization once (failure is okay).",
+	"rewards": [
+		{
+			"item": 7.0
+		}
+	],
+	"requires": [
+		"F8",
+		"F17"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F19",
+	"name": "Model Conversion: Type 97 Torpedo Bomber (Murata Squadron)",
+	"jp": "機種転換",
+	"description": "Equip Shoukaku (flagship) with an UNLOCKED Type 97 Torpedo Bomber (Murata Squadron), then scrap 2 Tenzan.",
+	"rewards": [
+		{
+			"item": 27.0
+		}
+	],
+	"requires": [
+		"B50"
+	],
+	"ships": [
+		106.0
+	]
+},
+{
+	"_id": "F2",
+	"name": "The First Development",
+	"jp": "はじめての「開発」！",
+	"description": "Craft a piece of equipment.",
+	"rewards": [],
+	"requires": [
+		"F1"
+	]
+},
+{
+	"_id": "F20",
+	"name": "Organize the Elite Type 97 Torpedo Bomber Force",
+	"jp": "精鋭「九七式艦攻」部隊の編成",
+	"description": "Have Shoukaku or Akagi as flagship, then scrap 3 Type 97 Torpedo Bombers.",
+	"ships": [
+		106.0,
+		6.0
+	],
+	"rewards": [
+		{
+			"item": 28.0
+		}
+	],
+	"requires": [
+		"B50"
+	]
+},
+{
+	"_id": "F21",
+	"name": "Preparation of the Prototype Equipment",
+	"jp": "試作艤装の準備",
+	"description": "Scrap equipment 7 times.",
+	"rewards": [
+		{
+			"item": 14.0
+		}
+	],
+	"requires": [
+		"D19"
+	]
+},
+{
+	"_id": "F22",
+	"name": "Organize the New Elite Fighter Force",
+	"jp": "精鋭「艦戦」隊の新編成",
+	"description": "Have a Skilled Crew Member, equip a rank 7 Type 0 Fighter Model 21 on Houshou (secretary), then scrap 2 Type 0 Fighter Model 21 and 1 Type 96 Fighter.",
+	"ships": [
+		25.0
+	],
+	"rewards": [
+		{
+			"item": 17.0
+		}
+	],
+	"requires": [
+		"A19",
+		"Bm6"
+	],
+	"repeatable": "monthly"
+},
+{
+	"_id": "F23",
+	"name": "Addition to Prototype Avaiation Equipment",
+	"jp": "試製航空艤装の追加試作",
+	"description": "Scrap equipment 9 times.",
+	"rewards": [
+		{
+			"item": 14.0
+		}
+	],
+	"requires": [
+		"B54"
+	]
+},
+{
+	"_id": "F24",
+	"name": "Model Conversion: Type 0 Fighter Model 21 (Skilled)",
+	"jp": "機種転換",
+	"description": "Equip an UNLOCKED Type 0 Fighter Model 21 (Skilled) on a CV secretary, then scrap 2 Type 0 Fighter Model 52.",
+	"rewards": [
+		{
+			"item": 29.0
+		}
+	],
+	"requires": [
+		"F22",
+		"A59"
+	]
+},
+{
+	"_id": "F25",
+	"name": "Model Conversion: Type 0 Fighter Model 21 (Skilled)",
+	"jp": "機種転換",
+	"description": "Equip a RANK 7 UNLOCKED Type 0 Fighter Model 21 (Skilled) on a CV secretary, then scrap 2 Type 0 Fighter Model 52.",
+	"rewards": [
+		{
+			"item": 29.0
+		}
+	],
+	"repeatable": "monthly",
+	"requires": [
+		"Bm5",
+		"Bm6",
+		"F24"
+	]
+},
+{
+	"_id": "F26",
+	"name": "Reorganize the Fighter Force: Type 0 Fighter Model 52 (Skilled)",
+	"jp": "「艦戦」隊の再編成",
+	"description": "Equip a RANK 7 UNLOCKED Type 0 Fighter Model 52 (Skilled) on Zuikaku (secretary), then scrap a Zero Fighter Model 52C (601 Air Group).",
+	"ships": [
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 30.0
+		}
+	],
+	"requires": [
+		"B53",
+		"F24"
+	]
+},
+{
+	"_id": "F27",
+	"name": "Model Conversion and Reorganization: Zero Fighter Model 52C (w/ Iwai Flight)",
+	"jp": "機種転換＆部隊再編",
+	"description": "Equip a RANK 7 UNLOCKED Zero Fighter Model 52C (w/ Iwai Flight) on Zuikaku (secretary), then scrap 2 Type 0 Fighter Model 62 (Fighter-bomber).",
+	"ships": [
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 31.0
+		}
+	],
+	"requires": [
+		"F26",
+		"B54"
+	]
+},
+{
+	"_id": "F28",
+	"name": "Reorganize the Fighter Force: Type 0 Fighter Model 21 (Skilled)",
+	"jp": "「艦戦」隊の再編成",
+	"description": "Equip a rank 7 Type 0 Fighter Model 21 (Skilled) on Zuikaku (secretary), then scrap 2 Type 0 Fighter Model 21",
+	"ships": [
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 18.0
+		}
+	],
+	"requires": [
+		"A61",
+		"F22"
+	]
+},
+{
+	"_id": "F29",
+	"name": "Model Conversion: Zero Fighter Model 21 (w/ Iwamoto Flight)",
+	"jp": "機種転換",
+	"description": "Equip a rank 7 Zero Fighter Model 21 (w/ Iwamoto Flight) on Zuikaku (secretary), then scrap 2 Type 0 Fighter Model 52.",
+	"ships": [
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 19.0
+		}
+	],
+	"requires": [
+		"F23",
+		"F28"
+	]
+},
+{
+	"_id": "F3",
+	"name": "The First Dismantling",
+	"jp": "はじめての「解体」！",
+	"description": "Scrap a ship.",
+	"rewards": [],
+	"requires": [
+		"F2"
+	]
+},
+{
+	"_id": "F30",
+	"name": "Model Conversion and Reorganization: Zero Fighter Model 52A (w/ Iwamoto Flight)",
+	"jp": "機種転換＆部隊再編",
+	"description": "Equip a RANK 7 UNLOCKED Zero Fighter Model 52A (w/ Iwamoto Flight) on Zuikaku (secretary), then scrap 2 Saiun.",
+	"ships": [
+		107.0
+	],
+	"rewards": [
+		{
+			"item": 32.0
+		}
+	],
+	"requires": [
+		"A62"
+	]
+},
+{
+	"_id": "F31",
+	"name": "Preparation for New Furniture",
+	"jp": "新家具の準備",
+	"description": "Scrap 9 pieces of equipment.",
+	"rewards": [
+		{
+			"item": 12.0
+		}
+	],
+	"requires": [
+		"Bd2"
+	]
+},
+{
+	"_id": "F32",
+	"description": "Scrap 5 pieces of equipment.",
+	"jp": "新装備の準備",
+	"name": "Preparations for the new Equipment",
+	"requires": [
+		"Bw2"
+	],
+	"rewards": []
+},
+{
+	"_id": "F33",
+	"jp": "上陸戦用新装備の調達",
+	"name": "Supply of the New Landing Force Equipment",
+	"description": "Scrap 2 7.7mm Machine Guns and 2 12.7mm Machine Guns.",
+	"rewards": [
+		{
+			"item": 46.0
+		}
+	],
+	"requires": [
+		"C9",
+		"B46"
+	]
+},
+{
+	"_id": "F4",
+	"name": "The First Scrapping",
+	"jp": "はじめての「廃棄」！",
+	"description": "Scrap a piece of equipment.",
+	"rewards": [],
+	"requires": [
+		"F3"
+	]
+},
+{
+	"_id": "F5",
+	"name": "Instructions to Develop New Equipment",
+	"jp": "新装備「開発」指令",
+	"description": "Craft a piece of equipment (failure is okay).",
+	"rewards": [],
+	"requires": [
+		"F2"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F6",
+	"name": "Instructions to Construct a New Ship",
+	"jp": "新造艦「建造」指令",
+	"description": "Construct a ship.",
+	"rewards": [],
+	"requires": [
+		"F5"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F7",
+	"name": "Intensify the Concentration in Developing Equipment",
+	"jp": "装備「開発」集中強化！",
+	"description": "Craft 3 pieces of equipment (failure is okay).",
+	"rewards": [],
+	"requires": [
+		"F6"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F8",
+	"name": "Strengthen the Fleet By Construction Shipgirls",
+	"jp": "艦娘「建造」艦隊強化！",
+	"description": "Construct 3 ships.",
+	"rewards": [],
+	"requires": [
+		"F7"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "F9",
+	"name": "Response to Disarmament Treaty",
+	"jp": "軍縮条約対応！",
+	"description": "Scrap 2 ships.",
+	"rewards": [],
+	"requires": [
+		"F8"
+	],
+	"repeatable": "daily"
+},
+{
+	"_id": "G1",
+	"name": "The First Modernization",
+	"jp": "はじめての「近代化改修」！",
+	"description": "Perform a successful modernization.",
+	"rewards": [],
+	"requires": []
+},
+{
+	"_id": "G2",
+	"name": "Carry Out Ship Modernization",
+	"jp": "艦の「近代化改修」を実施せよ！",
+	"description": "Perform 2 modernizations.",
+	"rewards": [],
+	"requires": [],
+	"repeatable": "daily"
+},
+{
+	"_id": "G3",
+	"name": "Proceed with Modernization and Prepare for War",
+	"jp": "「近代化改修」を進め、戦備を整えよ！",
+	"description": "Perform 15 modernizations.",
+	"rewards": [],
+	"requires": [
+		"G2"
+	],
+	"repeatable": "weekly"
+},
+{
+	"_id": "G4",
+	"name": "Preparation for Large Ship Construction (Part 1)",
+	"jp": "「大型艦建造」の準備！(その壱)",
+	"description": "Perform 4 successful modernizations.",
+	"rewards": [],
+	"requires": [
+		"A14"
+	]
+},
+{
+	"_id": "WA01",
+	"name": "Preparation for the Ceremony (Part 3)",
+	"jp": "式の準備！(その参)",
+	"description": "Have a level 90-99 flagship.",
+	"rewards": [],
+	"requires": [
+		"WC01"
+	]
+},
+{
+	"_id": "WA02",
+	"name": "A New Voyage",
+	"jp": "新たなる旅立ち！",
+	"description": "Have a level 100 flagship and 5 other ships in your Main Fleet.",
+	"rewards": [
+		{
+			"item": 1.0
+		}
+	],
+	"requires": [
+		"WB01"
+	]
+},
+{
+	"_id": "WB01",
+	"name": "Preparation for the Ceremony (Final)",
+	"jp": "式の準備！(最終)",
+	"description": "Get S Rank at the 2-3 boss with a level 90-99 flagship.",
+	"rewards": [
+		{
+			"item": 4.0
+		}
+	],
+	"requires": [
+		"WA01"
+	]
+},
+{
+	"_id": "WB02",
+	"name": "A Couple's First Quest",
+	"jp": "二人でする初めての任務！",
+	"description": "S-rank the 4-3 boss with a level 100 flagship.",
+	"rewards": [
+		{
+			"item": 5.0
+		}
+	],
+	"requires": [
+		"WA02"
+	]
+},
+{
+	"_id": "WC01",
+	"name": "Preparation for the Ceremony (Part 2)",
+	"jp": "式の準備！(その弐)",
+	"description": "Win two battles in PvP.",
+	"rewards": [],
+	"requires": [
+		"WF01"
+	]
+},
+{
+	"_id": "WF01",
+	"name": "Preparation for the Ceremony (Part 1)",
+	"jp": "式の準備！(その壱)",
+	"description": "Scrap equipment twice.",
+	"rewards": [],
+	"requires": [
+		"A16"
+	]
+}]
+
